@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Lato-BlackItalic.tff</string>
+		<string>Lato-Black.tff</string>
+		<string>Lato-BoldItalic.tff</string>
+		<string>Lato-Bold.tff</string>
+		<string>Lato-Italic.tff</string>
+		<string>Lato-Regular.tff</string>
+		<string>Lato-LightItalic.tff</string>
+		<string>Lato-Light.tff</string>
+		<string>Lato-ThinItalic.tff</string>
+		<string>Lato-Thin.tff</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

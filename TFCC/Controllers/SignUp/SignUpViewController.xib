@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="TFCC" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxt-03-TIP" userLabel="Main View">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuR-tn-SPD">
+                            <rect key="frame" x="138.5" y="160" width="137" height="24"/>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                            <color key="textColor" name="ThemeColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please complete to create your account." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6P-QJ-NGo">
+                            <rect key="frame" x="33" y="191" width="348" height="14.5"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                            <color key="textColor" name="BlackText"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TJ1-13-d7Q">
+                            <rect key="frame" x="16" y="235.5" width="382" height="43"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address *" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="n7H-o5-MFa">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="43"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="43" id="tE7-8U-hKg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="B6P-QJ-NGo" secondAttribute="trailing" constant="33" id="Lyb-eV-uUM"/>
+                        <constraint firstItem="TJ1-13-d7Q" firstAttribute="top" secondItem="B6P-QJ-NGo" secondAttribute="bottom" constant="30" id="Tv8-Gv-I3B"/>
+                        <constraint firstItem="B6P-QJ-NGo" firstAttribute="top" secondItem="YuR-tn-SPD" secondAttribute="bottom" constant="7" id="krb-2h-bIq"/>
+                        <constraint firstItem="YuR-tn-SPD" firstAttribute="top" secondItem="dxt-03-TIP" secondAttribute="top" constant="160" id="lb0-Su-0FC"/>
+                        <constraint firstItem="YuR-tn-SPD" firstAttribute="centerX" secondItem="dxt-03-TIP" secondAttribute="centerX" id="unI-lp-ZMR"/>
+                        <constraint firstAttribute="trailing" secondItem="TJ1-13-d7Q" secondAttribute="trailing" constant="16" id="wJh-bm-g8d"/>
+                        <constraint firstItem="B6P-QJ-NGo" firstAttribute="leading" secondItem="dxt-03-TIP" secondAttribute="leading" constant="33" id="wS7-it-PRq"/>
+                        <constraint firstItem="TJ1-13-d7Q" firstAttribute="leading" secondItem="dxt-03-TIP" secondAttribute="leading" constant="16" id="xY1-0o-4GS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dxt-03-TIP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gn4-Pn-Dv0"/>
+                <constraint firstAttribute="bottom" secondItem="dxt-03-TIP" secondAttribute="bottom" id="hpc-qs-cmt"/>
+                <constraint firstItem="dxt-03-TIP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jZ3-5w-6WV"/>
+                <constraint firstAttribute="trailing" secondItem="dxt-03-TIP" secondAttribute="trailing" id="kHM-pT-QQ4"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="135"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BlackText">
+            <color red="0.019607843137254902" green="0.050980392156862744" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeColor">
+            <color red="0.19200000166893005" green="0.81599998474121094" blue="0.83099997043609619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

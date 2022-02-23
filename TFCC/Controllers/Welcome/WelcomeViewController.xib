@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="TFCC" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxt-03-TIP" userLabel="Main View">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XjD-tU-ydx">
+                            <rect key="frame" x="111.5" y="362" width="191.5" height="54"/>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="45"/>
+                            <color key="textColor" name="ThemeColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quality of life in a happy family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YuR-tn-SPD">
+                            <rect key="frame" x="69.5" y="436" width="275.5" height="24"/>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                            <color key="textColor" name="ThemeColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6P-QJ-NGo">
+                            <rect key="frame" x="33" y="480" width="348" height="43.5"/>
+                            <string key="text">Tarafaoua Center for Family Counseling is a center specialized in providing social, psychological, family and educational services related to all aspects related to the family and its members.</string>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                            <color key="textColor" name="BlackText"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="YuR-tn-SPD" firstAttribute="top" secondItem="XjD-tU-ydx" secondAttribute="bottom" constant="20" id="G1g-Ih-R0W"/>
+                        <constraint firstItem="YuR-tn-SPD" firstAttribute="centerY" secondItem="dxt-03-TIP" secondAttribute="centerY" id="HNu-GO-yh6"/>
+                        <constraint firstAttribute="trailing" secondItem="B6P-QJ-NGo" secondAttribute="trailing" constant="33" id="Lyb-eV-uUM"/>
+                        <constraint firstItem="XjD-tU-ydx" firstAttribute="centerX" secondItem="dxt-03-TIP" secondAttribute="centerX" id="NbF-De-ihm"/>
+                        <constraint firstItem="B6P-QJ-NGo" firstAttribute="top" secondItem="YuR-tn-SPD" secondAttribute="bottom" constant="20" id="krb-2h-bIq"/>
+                        <constraint firstItem="YuR-tn-SPD" firstAttribute="centerX" secondItem="dxt-03-TIP" secondAttribute="centerX" id="unI-lp-ZMR"/>
+                        <constraint firstItem="B6P-QJ-NGo" firstAttribute="leading" secondItem="dxt-03-TIP" secondAttribute="leading" constant="33" id="wS7-it-PRq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dxt-03-TIP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gn4-Pn-Dv0"/>
+                <constraint firstAttribute="bottom" secondItem="dxt-03-TIP" secondAttribute="bottom" id="hpc-qs-cmt"/>
+                <constraint firstItem="dxt-03-TIP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jZ3-5w-6WV"/>
+                <constraint firstAttribute="trailing" secondItem="dxt-03-TIP" secondAttribute="trailing" id="kHM-pT-QQ4"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="135"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BlackText">
+            <color red="0.019607843137254902" green="0.050980392156862744" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeColor">
+            <color red="0.19200000166893005" green="0.81599998474121094" blue="0.83099997043609619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

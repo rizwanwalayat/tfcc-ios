@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1E27C67E460007B579 /* Lato-Thin.ttf */; };
+		96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1F27C67E460007B579 /* Lato-Regular.ttf */; };
+		96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */; };
+		96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2127C67E460007B579 /* Lato-Italic.ttf */; };
+		96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2227C67E470007B579 /* Lato-BlackItalic.ttf */; };
+		96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2327C67E470007B579 /* Lato-Black.ttf */; };
+		96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2427C67E470007B579 /* Lato-BoldItalic.ttf */; };
+		96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2527C67E470007B579 /* Lato-Light.ttf */; };
+		96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2627C67E470007B579 /* Lato-Bold.ttf */; };
+		96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2727C67E470007B579 /* Lato-LightItalic.ttf */; };
+		96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96426B3427C681FC0007B579 /* SignUpViewController.xib */; };
+		96426B3727C681FC0007B579 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96426B3527C681FC0007B579 /* SignUpViewController.swift */; };
 		96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC30F27C66D65009A5F5B /* AppDelegate.swift */; };
 		96BEC31227C66D65009A5F5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC31127C66D65009A5F5B /* SceneDelegate.swift */; };
 		96BEC31427C66D65009A5F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC31327C66D65009A5F5B /* ViewController.swift */; };
@@ -20,6 +32,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96426B1E27C67E460007B579 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		96426B1F27C67E460007B579 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		96426B2127C67E460007B579 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		96426B2227C67E470007B579 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		96426B2327C67E470007B579 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		96426B2427C67E470007B579 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		96426B2527C67E470007B579 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		96426B2627C67E470007B579 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		96426B2727C67E470007B579 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		96426B3427C681FC0007B579 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		96426B3527C681FC0007B579 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		96BEC30C27C66D65009A5F5B /* TFCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BEC30F27C66D65009A5F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96BEC31127C66D65009A5F5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +69,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96426B1C27C67DE80007B579 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96426B1D27C67E090007B579 /* Fonts */,
+				96BEC31827C66D67009A5F5B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96426B1D27C67E090007B579 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				96426B2327C67E470007B579 /* Lato-Black.ttf */,
+				96426B2227C67E470007B579 /* Lato-BlackItalic.ttf */,
+				96426B2627C67E470007B579 /* Lato-Bold.ttf */,
+				96426B2427C67E470007B579 /* Lato-BoldItalic.ttf */,
+				96426B2127C67E460007B579 /* Lato-Italic.ttf */,
+				96426B2527C67E470007B579 /* Lato-Light.ttf */,
+				96426B2727C67E470007B579 /* Lato-LightItalic.ttf */,
+				96426B1F27C67E460007B579 /* Lato-Regular.ttf */,
+				96426B1E27C67E460007B579 /* Lato-Thin.ttf */,
+				96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		96426B3227C681BF0007B579 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				96BEC32427C67352009A5F5B /* WelcomeViewController.swift */,
+				96BEC32527C67352009A5F5B /* WelcomeViewController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		96426B3327C681CB0007B579 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				96426B3527C681FC0007B579 /* SignUpViewController.swift */,
+				96426B3427C681FC0007B579 /* SignUpViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		96BEC30327C66D65009A5F5B = {
 			isa = PBXGroup;
 			children = (
@@ -70,9 +138,9 @@
 				96BEC31127C66D65009A5F5B /* SceneDelegate.swift */,
 				96BEC31327C66D65009A5F5B /* ViewController.swift */,
 				96BEC31527C66D65009A5F5B /* Main.storyboard */,
-				96BEC31827C66D67009A5F5B /* Assets.xcassets */,
 				96BEC31A27C66D67009A5F5B /* LaunchScreen.storyboard */,
 				96BEC31D27C66D67009A5F5B /* Info.plist */,
+				96426B1C27C67DE80007B579 /* Resources */,
 			);
 			path = TFCC;
 			sourceTree = "<group>";
@@ -80,8 +148,8 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				96BEC32427C67352009A5F5B /* WelcomeViewController.swift */,
-				96BEC32527C67352009A5F5B /* WelcomeViewController.xib */,
+				96426B3327C681CB0007B579 /* SignUp */,
+				96426B3227C681BF0007B579 /* Welcome */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -154,9 +222,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */,
+				96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */,
+				96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */,
+				96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */,
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
+				96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */,
+				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
+				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
+				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
+				96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */,
+				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
+				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
 				96BEC31727C66D65009A5F5B /* Main.storyboard in Resources */,
+				96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BEC31427C66D65009A5F5B /* ViewController.swift in Sources */,
+				96426B3727C681FC0007B579 /* SignUpViewController.swift in Sources */,
 				96BEC32C27C67911009A5F5B /* DataManager.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
