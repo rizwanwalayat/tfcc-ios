@@ -13,6 +13,10 @@
 		96BEC31727C66D65009A5F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BEC31527C66D65009A5F5B /* Main.storyboard */; };
 		96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BEC31827C66D67009A5F5B /* Assets.xcassets */; };
 		96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BEC31A27C66D67009A5F5B /* LaunchScreen.storyboard */; };
+		96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32427C67352009A5F5B /* WelcomeViewController.swift */; };
+		96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BEC32527C67352009A5F5B /* WelcomeViewController.xib */; };
+		96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32927C67749009A5F5B /* Coordinator.swift */; };
+		96BEC32C27C67911009A5F5B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32B27C67911009A5F5B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		96BEC31827C66D67009A5F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96BEC31B27C66D67009A5F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96BEC31D27C66D67009A5F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BEC32427C67352009A5F5B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		96BEC32527C67352009A5F5B /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		96BEC32927C67749009A5F5B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		96BEC32B27C67911009A5F5B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		96BEC30E27C66D65009A5F5B /* TFCC */ = {
 			isa = PBXGroup;
 			children = (
+				96BEC32827C67722009A5F5B /* BaseClasses */,
+				96BEC32327C672E1009A5F5B /* Controllers */,
 				96BEC30F27C66D65009A5F5B /* AppDelegate.swift */,
 				96BEC31127C66D65009A5F5B /* SceneDelegate.swift */,
 				96BEC31327C66D65009A5F5B /* ViewController.swift */,
@@ -65,6 +75,24 @@
 				96BEC31D27C66D67009A5F5B /* Info.plist */,
 			);
 			path = TFCC;
+			sourceTree = "<group>";
+		};
+		96BEC32327C672E1009A5F5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96BEC32427C67352009A5F5B /* WelcomeViewController.swift */,
+				96BEC32527C67352009A5F5B /* WelcomeViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		96BEC32827C67722009A5F5B /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				96BEC32927C67749009A5F5B /* Coordinator.swift */,
+				96BEC32B27C67911009A5F5B /* DataManager.swift */,
+			);
+			path = BaseClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */,
+				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
 				96BEC31727C66D65009A5F5B /* Main.storyboard in Resources */,
 			);
@@ -139,6 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BEC31427C66D65009A5F5B /* ViewController.swift in Sources */,
+				96BEC32C27C67911009A5F5B /* DataManager.swift in Sources */,
+				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
+				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
 				96BEC31227C66D65009A5F5B /* SceneDelegate.swift in Sources */,
 			);
