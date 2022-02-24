@@ -22,8 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
             if DataManager.shared.getUser() ?? false {
                 coordinator?.signInScreen()
-            }
-            else {
+            } else {
                 coordinator?.welcomeScreen()
             }
             

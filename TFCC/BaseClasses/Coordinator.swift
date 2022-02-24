@@ -10,6 +10,8 @@ import UIKit
 protocol Coordinator {
     var childCoordinators: [Coordinator] { get set }
     var navigationController: UINavigationController { get set }
+    func welcomeScreen()
+    func signInScreen()
 }
 
 class MainCoordinator: Coordinator {
@@ -23,9 +25,9 @@ class MainCoordinator: Coordinator {
     }
     
     func welcomeScreen() {
-//        let vc = LandingPageViewController()
-//        vc.coordinator = self
-//        navigationController.setViewControllers([vc], animated: true)
+        let vc = WelcomeViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
     }
     
     
