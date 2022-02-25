@@ -17,10 +17,13 @@
 		96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2527C67E470007B579 /* Lato-Light.ttf */; };
 		96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2627C67E470007B579 /* Lato-Bold.ttf */; };
 		96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2727C67E470007B579 /* Lato-LightItalic.ttf */; };
-		96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96426B3427C681FC0007B579 /* SignUpViewController.xib */; };
-		96426B3727C681FC0007B579 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96426B3527C681FC0007B579 /* SignUpViewController.swift */; };
+		965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */; };
+		965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */; };
+		965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8ABD27C93F21007DDE1C /* RoundTextField.swift */; };
+		965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AC027C94154007DDE1C /* UIColorExtensions.swift */; };
 		968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */; };
 		968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */; };
+		968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162927C90C6100B01E83 /* RoundButton.swift */; };
 		96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684427C792D9004372D7 /* BaseViewController.swift */; };
 		96B7684727C793A3004372D7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684627C793A3004372D7 /* Global.swift */; };
 		96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC30F27C66D65009A5F5B /* AppDelegate.swift */; };
@@ -43,10 +46,13 @@
 		96426B2527C67E470007B579 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		96426B2627C67E470007B579 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		96426B2727C67E470007B579 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
-		96426B3427C681FC0007B579 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
-		96426B3527C681FC0007B579 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		965A8ABD27C93F21007DDE1C /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		965A8AC027C94154007DDE1C /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSignUpViewController.swift; sourceTree = "<group>"; };
 		968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeSignUpViewController.xib; sourceTree = "<group>"; };
+		968B162927C90C6100B01E83 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		96B7684427C792D9004372D7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		96B7684627C793A3004372D7 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		96BEC30C27C66D65009A5F5B /* TFCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,13 +112,21 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
-		96426B3327C681CB0007B579 /* SignUp */ = {
+		965A8AB827C93BE7007DDE1C /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				96426B3527C681FC0007B579 /* SignUpViewController.swift */,
-				96426B3427C681FC0007B579 /* SignUpViewController.xib */,
+				965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */,
+				965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		965A8ABF27C9413D007DDE1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				965A8AC027C94154007DDE1C /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		968B162427C8E76400B01E83 /* WelcomeSignUp */ = {
@@ -143,6 +157,7 @@
 		96BEC30E27C66D65009A5F5B /* TFCC */ = {
 			isa = PBXGroup;
 			children = (
+				965A8ABF27C9413D007DDE1C /* Extensions */,
 				96BEC32827C67722009A5F5B /* BaseClasses */,
 				96BEC32327C672E1009A5F5B /* Controllers */,
 				96BEC30F27C66D65009A5F5B /* AppDelegate.swift */,
@@ -156,8 +171,8 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				965A8AB827C93BE7007DDE1C /* SignUp */,
 				968B162427C8E76400B01E83 /* WelcomeSignUp */,
-				96426B3327C681CB0007B579 /* SignUp */,
 				96426B3227C681BF0007B579 /* Welcome */,
 			);
 			path = Controllers;
@@ -170,6 +185,8 @@
 				96BEC32927C67749009A5F5B /* Coordinator.swift */,
 				96BEC32B27C67911009A5F5B /* DataManager.swift */,
 				96B7684627C793A3004372D7 /* Global.swift */,
+				968B162927C90C6100B01E83 /* RoundButton.swift */,
+				965A8ABD27C93F21007DDE1C /* RoundTextField.swift */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -242,8 +259,8 @@
 				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
 				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
+				965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */,
 				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
-				96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
 				96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */,
@@ -257,12 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96426B3727C681FC0007B579 /* SignUpViewController.swift in Sources */,
+				968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */,
 				96BEC32C27C67911009A5F5B /* DataManager.swift in Sources */,
+				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
+				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
+				965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,
 				968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */,
 			);

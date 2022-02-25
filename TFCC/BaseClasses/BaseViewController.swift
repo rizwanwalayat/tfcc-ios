@@ -103,31 +103,31 @@ open class BaseViewController: UIViewController {
     }
     
     
-    func presentUIActivityControl() {
-        
-        let text = Global.shared.shareString + "\n" + Global.shared.shareUrl
-        let textToShare = [ text ]
-        let activityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
-        activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
-        activityViewController.excludedActivityTypes = [ UIActivity.ActivityType.postToFacebook ]
-        activityViewController.completionWithItemsHandler = { activity, success, items, error in
-            if success == true && activity != nil && error == nil {
-                print(activity!,success)
-                let activityName = activity!.rawValue.split(separator: ".")
-                if activityName.contains("CopyToPasteboard")
-                {
-                    self.showToast(message: "Copied")
-                }
-                else {
-                    self.showToast(message: "Shared")
-                }
-                
-            }
-            
-        }
-        self.present(activityViewController, animated: true, completion: nil)
-        
-    }
+//    func presentUIActivityControl() {
+//        
+//        let text = Global.shared.shareString + "\n" + Global.shared.shareUrl
+//        let textToShare = [ text ]
+//        let activityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
+//        activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
+//        activityViewController.excludedActivityTypes = [ UIActivity.ActivityType.postToFacebook ]
+//        activityViewController.completionWithItemsHandler = { activity, success, items, error in
+//            if success == true && activity != nil && error == nil {
+//                print(activity!,success)
+//                let activityName = activity!.rawValue.split(separator: ".")
+//                if activityName.contains("CopyToPasteboard")
+//                {
+//                    self.showToast(message: "Copied")
+//                }
+//                else {
+//                    self.showToast(message: "Shared")
+//                }
+//                
+//            }
+//            
+//        }
+//        self.present(activityViewController, animated: true, completion: nil)
+//        
+//    }
     
     func showToast(message : String, _ position: Double = ScreenSize.SCREEN_HEIGHT, _ lines:Double = 40) {
         let toastLabel = UILabel(frame: CGRect(x:ScreenSize.SCREEN_WIDTH/6 , y:position-100, width: ScreenSize.SCREEN_WIDTH/1.5, height: lines))

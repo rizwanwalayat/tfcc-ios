@@ -15,8 +15,17 @@ class WelcomeSignUpViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func continueBtnAction(_ sender: Any) {
-        coordinator?.welcomeSignupScreen()
+    @IBAction func signUpBtnAction(_ sender: Any) {
+        coordinator?.signUpScreen()
+    }
+    
+    @IBAction func signInBtnAction(_ sender: Any) {
+        coordinator?.signInScreen()
+    }
+    
+    
+    @IBAction func skipBtnAction(_ sender: Any) {
+//        coordinator?.welcomeSignupScreen()
     }
     
 
