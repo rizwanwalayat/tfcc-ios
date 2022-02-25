@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */; };
+		69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */; };
+		69F4D75327C90F4F00812481 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D75227C90F4F00812481 /* UIView.swift */; };
+		69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D75927C918F200812481 /* BannerCollectionCell.swift */; };
+		69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F4D75A27C918F200812481 /* BannerCollectionCell.xib */; };
+		69F4D75F27C9342C00812481 /* CategoriesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D75D27C9342C00812481 /* CategoriesCollectionCell.swift */; };
+		69F4D76027C9342C00812481 /* CategoriesCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F4D75E27C9342C00812481 /* CategoriesCollectionCell.xib */; };
+		69F4D76327C9420F00812481 /* LastRowCenteredLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */; };
 		96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1E27C67E460007B579 /* Lato-Thin.ttf */; };
 		96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1F27C67E460007B579 /* Lato-Regular.ttf */; };
 		96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */; };
@@ -33,6 +41,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSpecialistViewController.swift; sourceTree = "<group>"; };
+		69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchSpecialistViewController.xib; sourceTree = "<group>"; };
+		69F4D75227C90F4F00812481 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		69F4D75927C918F200812481 /* BannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionCell.swift; sourceTree = "<group>"; };
+		69F4D75A27C918F200812481 /* BannerCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionCell.xib; sourceTree = "<group>"; };
+		69F4D75D27C9342C00812481 /* CategoriesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionCell.swift; sourceTree = "<group>"; };
+		69F4D75E27C9342C00812481 /* CategoriesCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionCell.xib; sourceTree = "<group>"; };
+		69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRowCenteredLayout.swift; sourceTree = "<group>"; };
 		96426B1E27C67E460007B579 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		96426B1F27C67E460007B579 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
@@ -71,6 +87,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69F4D74927C900D300812481 /* SearchSpecialist */ = {
+			isa = PBXGroup;
+			children = (
+				69F4D75427C9188A00812481 /* Cells */,
+				69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */,
+				69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */,
+			);
+			path = SearchSpecialist;
+			sourceTree = "<group>";
+		};
+		69F4D75127C90F1400812481 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69F4D75227C90F4F00812481 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		69F4D75427C9188A00812481 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69F4D75927C918F200812481 /* BannerCollectionCell.swift */,
+				69F4D75A27C918F200812481 /* BannerCollectionCell.xib */,
+				69F4D75D27C9342C00812481 /* CategoriesCollectionCell.swift */,
+				69F4D75E27C9342C00812481 /* CategoriesCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		69F4D76127C941D500812481 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		96426B1C27C67DE80007B579 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +196,8 @@
 		96BEC30E27C66D65009A5F5B /* TFCC */ = {
 			isa = PBXGroup;
 			children = (
+				69F4D76127C941D500812481 /* Custom */,
+				69F4D75127C90F1400812481 /* Extensions */,
 				96BEC32827C67722009A5F5B /* BaseClasses */,
 				96BEC32327C672E1009A5F5B /* Controllers */,
 				96BEC30F27C66D65009A5F5B /* AppDelegate.swift */,
@@ -156,6 +211,7 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				69F4D74927C900D300812481 /* SearchSpecialist */,
 				968B162427C8E76400B01E83 /* WelcomeSignUp */,
 				96426B3327C681CB0007B579 /* SignUp */,
 				96426B3227C681BF0007B579 /* Welcome */,
@@ -239,14 +295,17 @@
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
 				96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */,
 				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
+				69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */,
 				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
 				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
 				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
 				96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
+				69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
 				96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */,
+				69F4D76027C9342C00812481 /* CategoriesCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F4D75327C90F4F00812481 /* UIView.swift in Sources */,
 				96426B3727C681FC0007B579 /* SignUpViewController.swift in Sources */,
 				96BEC32C27C67911009A5F5B /* DataManager.swift in Sources */,
+				69F4D76327C9420F00812481 /* LastRowCenteredLayout.swift in Sources */,
+				69F4D75F27C9342C00812481 /* CategoriesCollectionCell.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
+				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
+				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,
 				968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */,
 			);
