@@ -21,33 +21,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quality of life in a happy family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pv5-6C-ctG">
-                                <rect key="frame" x="69" y="591" width="276" height="24"/>
-                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Knc-mk-Max">
-                                <rect key="frame" x="97" y="264" width="220" height="220"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpV-di-rtu">
+                                <rect key="frame" x="32" y="276" width="350" height="371"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Knc-mk-Max">
+                                        <rect key="frame" x="65" y="10" width="220" height="220"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="220" id="a47-qw-72Z"/>
+                                            <constraint firstAttribute="width" constant="220" id="hIU-S8-Oeg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoText" translatesAutoresizingMaskIntoConstraints="NO" id="Lts-lS-f7Z">
+                                        <rect key="frame" x="0.0" y="267" width="350" height="45"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quality of life in a happy family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pv5-6C-ctG">
+                                        <rect key="frame" x="37" y="337" width="276" height="24"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="220" id="a47-qw-72Z"/>
-                                    <constraint firstAttribute="width" constant="220" id="hIU-S8-Oeg"/>
+                                    <constraint firstItem="pv5-6C-ctG" firstAttribute="top" secondItem="Lts-lS-f7Z" secondAttribute="bottom" constant="25" id="Eeo-IY-BJF"/>
+                                    <constraint firstItem="Lts-lS-f7Z" firstAttribute="top" secondItem="Knc-mk-Max" secondAttribute="bottom" constant="37" id="PGT-zm-roI"/>
+                                    <constraint firstItem="pv5-6C-ctG" firstAttribute="centerX" secondItem="kpV-di-rtu" secondAttribute="centerX" id="WHh-Tv-Txv"/>
+                                    <constraint firstAttribute="bottom" secondItem="pv5-6C-ctG" secondAttribute="bottom" constant="10" id="gu6-oh-gc9"/>
+                                    <constraint firstItem="Knc-mk-Max" firstAttribute="top" secondItem="kpV-di-rtu" secondAttribute="top" constant="10" id="lJ5-KS-kUG"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lts-lS-f7Z" secondAttribute="trailing" id="ldI-J0-jAi"/>
+                                    <constraint firstItem="Lts-lS-f7Z" firstAttribute="leading" secondItem="kpV-di-rtu" secondAttribute="leading" id="qot-Pg-tuq"/>
+                                    <constraint firstItem="Knc-mk-Max" firstAttribute="centerX" secondItem="kpV-di-rtu" secondAttribute="centerX" id="wqX-zL-D3p"/>
                                 </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoText" translatesAutoresizingMaskIntoConstraints="NO" id="Lts-lS-f7Z">
-                                <rect key="frame" x="52" y="521" width="310" height="45"/>
-                            </imageView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="ThemeColor"/>
                         <constraints>
-                            <constraint firstItem="Knc-mk-Max" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5ii-36-SfF"/>
-                            <constraint firstItem="Knc-mk-Max" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="Cbp-iH-Bc4"/>
-                            <constraint firstItem="Lts-lS-f7Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="Duv-OA-C0W"/>
-                            <constraint firstItem="pv5-6C-ctG" firstAttribute="top" secondItem="Lts-lS-f7Z" secondAttribute="bottom" constant="25" id="Kdd-Ix-Ans"/>
-                            <constraint firstItem="pv5-6C-ctG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aDE-te-2Rj"/>
-                            <constraint firstItem="Lts-lS-f7Z" firstAttribute="top" secondItem="Knc-mk-Max" secondAttribute="bottom" constant="37" id="qKf-L4-V5o"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lts-lS-f7Z" secondAttribute="trailing" constant="52" id="vQD-vi-LeM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kpV-di-rtu" secondAttribute="trailing" constant="32" id="2eL-hm-sm0"/>
+                            <constraint firstItem="kpV-di-rtu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="1.03" id="813-3K-tn9"/>
+                            <constraint firstItem="kpV-di-rtu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="ezF-cn-Gun"/>
                         </constraints>
                     </view>
                 </viewController>

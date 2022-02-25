@@ -19,6 +19,8 @@
 		96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2727C67E470007B579 /* Lato-LightItalic.ttf */; };
 		96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96426B3427C681FC0007B579 /* SignUpViewController.xib */; };
 		96426B3727C681FC0007B579 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96426B3527C681FC0007B579 /* SignUpViewController.swift */; };
+		968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */; };
+		968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */; };
 		96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684427C792D9004372D7 /* BaseViewController.swift */; };
 		96B7684727C793A3004372D7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684627C793A3004372D7 /* Global.swift */; };
 		96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC30F27C66D65009A5F5B /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 		96426B2727C67E470007B579 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		96426B3427C681FC0007B579 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		96426B3527C681FC0007B579 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSignUpViewController.swift; sourceTree = "<group>"; };
+		968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeSignUpViewController.xib; sourceTree = "<group>"; };
 		96B7684427C792D9004372D7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		96B7684627C793A3004372D7 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		96BEC30C27C66D65009A5F5B /* TFCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +115,15 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
+		968B162427C8E76400B01E83 /* WelcomeSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */,
+				968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */,
+			);
+			path = WelcomeSignUp;
+			sourceTree = "<group>";
+		};
 		96BEC30327C66D65009A5F5B = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +156,7 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				968B162427C8E76400B01E83 /* WelcomeSignUp */,
 				96426B3327C681CB0007B579 /* SignUp */,
 				96426B3227C681BF0007B579 /* Welcome */,
 			);
@@ -228,6 +242,7 @@
 				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
 				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
+				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
 				96426B3627C681FC0007B579 /* SignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
@@ -249,6 +264,7 @@
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,
+				968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
