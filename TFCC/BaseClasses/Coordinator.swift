@@ -40,6 +40,12 @@ class MainCoordinator: Coordinator {
         navigationController.setViewControllers([vc], animated: true)
     }
     
+    func signUp2Screen() {
+        let vc = SignUp2ViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
+    
     func signInScreen() {
 //        let vc = LandingPageViewController()
 //        vc.coordinator = self

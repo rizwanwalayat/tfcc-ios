@@ -9,15 +9,20 @@ import UIKit
 
 class SignUpViewController: BaseViewController {
 
+    @IBOutlet weak var emailTF: RoundTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func signInBtnAction(_ sender: Any) {
-        coordinator?.signInScreen()()
+    @IBAction func nextBtnAction(_ sender: Any) {
+        coordinator?.signUp2Screen()
     }
     
-
+    @IBAction func signInBtnAction(_ sender: Any) {
+        coordinator?.signInScreen()
+    }
+    
 }
+
