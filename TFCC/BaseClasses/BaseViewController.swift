@@ -393,4 +393,14 @@ extension UIColor {
             alpha: alpha
         )
     }
+    
+    static var WhiteBackground: UIColor {
+        return UIColor(named: "WhiteBackground") ?? UIColor(hexString: "FFFFFF")
+    }
+    static var WhiteText: UIColor {
+        return UIColor(named: "WhiteText") ?? UIColor(hexString: "FFFFFF")
+    }
+    static var TextFieldBorder: UIColor {
+        return UIColor(named: "TextFieldBorder") ?? UIColor(hexString: "B8B8B8")
+    }
 }

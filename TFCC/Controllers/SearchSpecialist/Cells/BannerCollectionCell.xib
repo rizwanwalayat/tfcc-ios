@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="bannerCollectionCell" id="gTV-IL-0wX" customClass="BannerCollectionCell" customModule="TFCC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="177"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="302" height="177"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wa2-GM-hIG">
+                        <rect key="frame" x="0.0" y="0.0" width="302" height="177"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="specialist-banner-placeholder-" translatesAutoresizingMaskIntoConstraints="NO" id="8dU-EN-dHa">
+                                <rect key="frame" x="0.0" y="0.0" width="302" height="177"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8dU-EN-dHa" firstAttribute="top" secondItem="Wa2-GM-hIG" secondAttribute="top" id="KxY-zH-oUV"/>
+                            <constraint firstAttribute="trailing" secondItem="8dU-EN-dHa" secondAttribute="trailing" id="MSP-d0-YOc"/>
+                            <constraint firstItem="8dU-EN-dHa" firstAttribute="leading" secondItem="Wa2-GM-hIG" secondAttribute="leading" id="VWV-qI-cnh"/>
+                            <constraint firstAttribute="bottom" secondItem="8dU-EN-dHa" secondAttribute="bottom" id="XqT-vz-CXS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Wa2-GM-hIG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="19d-1G-61f"/>
+                <constraint firstAttribute="bottom" secondItem="Wa2-GM-hIG" secondAttribute="bottom" id="Rgp-Qp-p88"/>
+                <constraint firstItem="Wa2-GM-hIG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UAu-pS-eY6"/>
+                <constraint firstAttribute="trailing" secondItem="Wa2-GM-hIG" secondAttribute="trailing" id="pwb-mD-fVD"/>
+            </constraints>
+            <size key="customSize" width="302" height="177"/>
+            <point key="canvasLocation" x="314.49275362318843" y="53.236607142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="specialist-banner-placeholder-" width="325" height="170"/>
+    </resources>
+</document>
