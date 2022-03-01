@@ -25,8 +25,7 @@ class WelcomeSignUpViewController: BaseViewController {
     
     
     @IBAction func skipBtnAction(_ sender: Any) {
-//        coordinator?.welcomeSignupScreen()
-    }
+        coordinator?.searchSpecialistScreen()
     
-
+    }
 }

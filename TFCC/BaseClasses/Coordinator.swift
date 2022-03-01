@@ -37,19 +37,26 @@ class MainCoordinator: Coordinator {
     func signUpScreen() {
         let vc = SignUpViewController()
         vc.coordinator = self
-        navigationController.setViewControllers([vc], animated: true)
+        navigationController.pushViewController(vc, animated: true)
     }
     
     func signUp2Screen() {
         let vc = SignUp2ViewController()
         vc.coordinator = self
-        navigationController.setViewControllers([vc], animated: true)
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func signUp3TOSScreen() {
+        let vc = SignUp3TOSViewController()
+        vc.modalPresentationStyle = .overCurrentContext
+        vc.coordinator = self
+        navigationController.present(vc, animated: true)
     }
     
     func signInScreen() {
-//        let vc = LandingPageViewController()
-//        vc.coordinator = self
-//        navigationController.setViewControllers([vc], animated: true)
+        let vc = SignInViewController()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
     }
     
     func searchSpecialistScreen(){

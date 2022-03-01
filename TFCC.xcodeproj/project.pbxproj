@@ -16,6 +16,10 @@
 		69F4D76327C9420F00812481 /* LastRowCenteredLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */; };
 		960AB2AA27CD004C00F9B156 /* SignUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960AB2A827CD004C00F9B156 /* SignUp2ViewController.swift */; };
 		960AB2AB27CD004C00F9B156 /* SignUp2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960AB2A927CD004C00F9B156 /* SignUp2ViewController.xib */; };
+		9618726D27CE37DD0063089E /* SignUp3TOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9618726B27CE37DD0063089E /* SignUp3TOSViewController.xib */; };
+		9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618726C27CE37DD0063089E /* SignUp3TOSViewController.swift */; };
+		9618727227CE79EF0063089E /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9618727027CE79EF0063089E /* SignInViewController.xib */; };
+		9618727327CE79EF0063089E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618727127CE79EF0063089E /* SignInViewController.swift */; };
 		96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1E27C67E460007B579 /* Lato-Thin.ttf */; };
 		96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1F27C67E460007B579 /* Lato-Regular.ttf */; };
 		96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */; };
@@ -56,6 +60,10 @@
 		69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRowCenteredLayout.swift; sourceTree = "<group>"; };
 		960AB2A827CD004C00F9B156 /* SignUp2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp2ViewController.swift; sourceTree = "<group>"; };
 		960AB2A927CD004C00F9B156 /* SignUp2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUp2ViewController.xib; sourceTree = "<group>"; };
+		9618726B27CE37DD0063089E /* SignUp3TOSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUp3TOSViewController.xib; sourceTree = "<group>"; };
+		9618726C27CE37DD0063089E /* SignUp3TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp3TOSViewController.swift; sourceTree = "<group>"; };
+		9618727027CE79EF0063089E /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		9618727127CE79EF0063089E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		96426B1E27C67E460007B579 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		96426B1F27C67E460007B579 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
@@ -140,12 +148,32 @@
 		960AB2AC27CD005A00F9B156 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				9618726F27CE79EF0063089E /* SignIn */,
+				9618726A27CE37DD0063089E /* SignUp3TOS */,
 				960AB2A727CD004C00F9B156 /* SignUp2 */,
 				965A8AB827C93BE7007DDE1C /* SignUp */,
 				968B162427C8E76400B01E83 /* WelcomeSignUp */,
 				96426B3227C681BF0007B579 /* Welcome */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9618726A27CE37DD0063089E /* SignUp3TOS */ = {
+			isa = PBXGroup;
+			children = (
+				9618726B27CE37DD0063089E /* SignUp3TOSViewController.xib */,
+				9618726C27CE37DD0063089E /* SignUp3TOSViewController.swift */,
+			);
+			path = SignUp3TOS;
+			sourceTree = "<group>";
+		};
+		9618726F27CE79EF0063089E /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				9618727027CE79EF0063089E /* SignInViewController.xib */,
+				9618727127CE79EF0063089E /* SignInViewController.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		96426B1C27C67DE80007B579 /* Resources */ = {
@@ -325,6 +353,8 @@
 				96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */,
 				96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */,
 				96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */,
+				9618726D27CE37DD0063089E /* SignUp3TOSViewController.xib in Resources */,
+				9618727227CE79EF0063089E /* SignInViewController.xib in Resources */,
 				96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */,
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
 				96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */,
@@ -359,6 +389,8 @@
 				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
+				9618727327CE79EF0063089E /* SignInViewController.swift in Sources */,
+				9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,

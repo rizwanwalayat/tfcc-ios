@@ -55,7 +55,11 @@ class SignUp2ViewController: BaseViewController {
         UIView.animate(withDuration: 1, delay: 1) {
             self.pickerView.isHidden = true
         }
-        
+    }
+    
+    
+    @IBAction func SignUpBtnAction(_ sender: Any) {
+        coordinator?.signUp3TOSScreen()
     }
     
 //    @objc func doneAction(_ sender: UIBarButtonItem){
