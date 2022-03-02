@@ -48,6 +48,12 @@
 		96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32427C67352009A5F5B /* WelcomeViewController.swift */; };
 		96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BEC32527C67352009A5F5B /* WelcomeViewController.xib */; };
 		96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32927C67749009A5F5B /* Coordinator.swift */; };
+		96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7985527CFB156005F00B1 /* ForgotPasswordViewController.swift */; };
+		96E7985827CFB156005F00B1 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E7985627CFB156005F00B1 /* ForgotPasswordViewController.xib */; };
+		96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7985A27CFB4A6005F00B1 /* VerificationCodeViewController.swift */; };
+		96E7985D27CFB4A6005F00B1 /* VerificationCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E7985B27CFB4A6005F00B1 /* VerificationCodeViewController.xib */; };
+		96F1F6B627CFE1C7002D8D86 /* ConfirmPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F1F6B427CFE1C7002D8D86 /* ConfirmPasswordViewController.xib */; };
+		96F1F6B727CFE1C7002D8D86 /* ConfirmPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F1F6B527CFE1C7002D8D86 /* ConfirmPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +100,12 @@
 		96BEC32527C67352009A5F5B /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		96BEC32927C67749009A5F5B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		96BEC32B27C67911009A5F5B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		96E7985527CFB156005F00B1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		96E7985627CFB156005F00B1 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		96E7985A27CFB4A6005F00B1 /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		96E7985B27CFB4A6005F00B1 /* VerificationCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationCodeViewController.xib; sourceTree = "<group>"; };
+		96F1F6B427CFE1C7002D8D86 /* ConfirmPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmPasswordViewController.xib; sourceTree = "<group>"; };
+		96F1F6B527CFE1C7002D8D86 /* ConfirmPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +160,9 @@
 		960AB2AC27CD005A00F9B156 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				96F1F6B327CFE1C7002D8D86 /* ConfirmPassword */,
+				96E7985927CFB4A6005F00B1 /* VerificationCode */,
+				96E7985427CFB156005F00B1 /* ForgotPassword */,
 				9618726F27CE79EF0063089E /* SignIn */,
 				9618726A27CE37DD0063089E /* SignUp3TOS */,
 				960AB2A727CD004C00F9B156 /* SignUp2 */,
@@ -292,6 +307,33 @@
 			path = BaseClasses;
 			sourceTree = "<group>";
 		};
+		96E7985427CFB156005F00B1 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				96E7985527CFB156005F00B1 /* ForgotPasswordViewController.swift */,
+				96E7985627CFB156005F00B1 /* ForgotPasswordViewController.xib */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		96E7985927CFB4A6005F00B1 /* VerificationCode */ = {
+			isa = PBXGroup;
+			children = (
+				96E7985A27CFB4A6005F00B1 /* VerificationCodeViewController.swift */,
+				96E7985B27CFB4A6005F00B1 /* VerificationCodeViewController.xib */,
+			);
+			path = VerificationCode;
+			sourceTree = "<group>";
+		};
+		96F1F6B327CFE1C7002D8D86 /* ConfirmPassword */ = {
+			isa = PBXGroup;
+			children = (
+				96F1F6B427CFE1C7002D8D86 /* ConfirmPasswordViewController.xib */,
+				96F1F6B527CFE1C7002D8D86 /* ConfirmPasswordViewController.swift */,
+			);
+			path = ConfirmPassword;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,11 +395,14 @@
 				96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */,
 				96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */,
 				96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */,
+				96E7985D27CFB4A6005F00B1 /* VerificationCodeViewController.xib in Resources */,
 				9618726D27CE37DD0063089E /* SignUp3TOSViewController.xib in Resources */,
 				9618727227CE79EF0063089E /* SignInViewController.xib in Resources */,
+				96F1F6B627CFE1C7002D8D86 /* ConfirmPasswordViewController.xib in Resources */,
 				96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */,
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
 				96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */,
+				96E7985827CFB156005F00B1 /* ForgotPasswordViewController.xib in Resources */,
 				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
 				69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */,
 				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
@@ -387,11 +432,14 @@
 				69F4D75F27C9342C00812481 /* CategoriesCollectionCell.swift in Sources */,
 				968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */,
 				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,
+				96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
+				96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */,
 				9618727327CE79EF0063089E /* SignInViewController.swift in Sources */,
 				9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
+				96F1F6B727CFE1C7002D8D86 /* ConfirmPasswordViewController.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,

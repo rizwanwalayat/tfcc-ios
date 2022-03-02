@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignInViewController: BaseViewController {
+class ConfirmPasswordViewController: BaseViewController {
 
     @IBOutlet weak var emailTF: RoundTextField!
     override func viewDidLoad() {
@@ -17,11 +17,11 @@ class SignInViewController: BaseViewController {
     }
 
     @IBAction func nextBtnAction(_ sender: Any) {
-        coordinator?.searchSpecialistScreen()
+        coordinator?.verificationCodeScreen()
     }
     
-    @IBAction func forgotPasswordBtnAction(_ sender: Any) {
-        coordinator?.forgotPasswordScreen()
+    @IBAction func signInBtnAction(_ sender: Any) {
+        coordinator?.signInScreen()
     }
     
 }

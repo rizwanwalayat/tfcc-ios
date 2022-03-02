@@ -59,6 +59,24 @@ class MainCoordinator: Coordinator {
         navigationController.pushViewController(vc, animated: true)
     }
     
+    func forgotPasswordScreen() {
+        let vc = ForgotPasswordViewController()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func verificationCodeScreen() {
+        let vc = VerificationCodeViewController()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func confirmPasswordScreen() {
+        let vc = ConfirmPasswordViewController()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
     func searchSpecialistScreen(){
         let vc = SearchSpecialistViewController()
         vc.coordinator = self

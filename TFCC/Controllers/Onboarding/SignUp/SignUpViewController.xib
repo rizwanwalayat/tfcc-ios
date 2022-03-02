@@ -190,7 +190,7 @@
                             </connections>
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6w-Tj-rJL">
-                            <rect key="frame" x="111.5" y="837" width="191.5" height="29"/>
+                            <rect key="frame" x="111" y="837" width="192.5" height="29"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxr-Zm-O6u">
                                     <rect key="frame" x="0.0" y="0.0" width="154.5" height="29"/>
@@ -199,7 +199,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eua-KO-3YC">
-                                    <rect key="frame" x="157.5" y="0.0" width="34" height="29"/>
+                                    <rect key="frame" x="158.5" y="0.0" width="34" height="29"/>
                                     <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="Login">
@@ -216,7 +216,7 @@
                                 <constraint firstItem="Eua-KO-3YC" firstAttribute="top" secondItem="i6w-Tj-rJL" secondAttribute="top" id="7VW-NW-OHX"/>
                                 <constraint firstAttribute="bottom" secondItem="pxr-Zm-O6u" secondAttribute="bottom" id="CyA-9p-NLn"/>
                                 <constraint firstAttribute="bottom" secondItem="Eua-KO-3YC" secondAttribute="bottom" id="FJp-mh-YGI"/>
-                                <constraint firstItem="Eua-KO-3YC" firstAttribute="leading" secondItem="pxr-Zm-O6u" secondAttribute="trailing" constant="3" id="MxH-d6-RWz"/>
+                                <constraint firstItem="Eua-KO-3YC" firstAttribute="leading" secondItem="pxr-Zm-O6u" secondAttribute="trailing" constant="4" id="MxH-d6-RWz"/>
                                 <constraint firstAttribute="trailing" secondItem="Eua-KO-3YC" secondAttribute="trailing" id="oHP-sJ-AEI"/>
                                 <constraint firstItem="pxr-Zm-O6u" firstAttribute="leading" secondItem="i6w-Tj-rJL" secondAttribute="leading" id="w1I-dc-yVZ"/>
                             </constraints>
