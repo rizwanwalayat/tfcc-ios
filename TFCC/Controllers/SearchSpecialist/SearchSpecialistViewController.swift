@@ -72,8 +72,11 @@ extension SearchSpecialistViewController: UICollectionViewDelegate, UICollection
             return cell
         }
         else if collectionView == categoriesCollectionView {
+            
             let cell = categoriesCollectionView.dequeueReusableCell(withReuseIdentifier: "categoriesCollectionCell", for: indexPath) as! CategoriesCollectionCell
             cell.circularView.cornerRadius = (bannersCollectionView.bounds.width/3 - 32) / 2
+            cell.config(indexPath: indexPath)
+            
             return cell
         }
         return UICollectionViewCell()

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "autism.png",
+      "filename" : "Group 646.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "autism@2x.png",
+      "filename" : "Group 646@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "autism@3x.png",
+      "filename" : "Group 646@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
@@ -19,8 +19,5 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }
