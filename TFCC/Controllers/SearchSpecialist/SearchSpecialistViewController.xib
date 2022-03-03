@@ -35,7 +35,7 @@
                             <rect key="frame" x="0.0" y="121" width="414" height="775"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7u-k0-Gd4">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="621"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="667.5"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QX8-qB-xKm">
                                             <rect key="frame" x="16" y="26" width="382" height="43"/>
@@ -85,10 +85,10 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="evN-B2-i96">
-                                            <rect key="frame" x="0.0" y="89" width="414" height="170"/>
+                                            <rect key="frame" x="0.0" y="89" width="414" height="216.5"/>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="170" id="vAb-lb-cPc"/>
+                                                <constraint firstAttribute="width" secondItem="evN-B2-i96" secondAttribute="height" multiplier="325:170" id="mwc-LP-AIl"/>
                                             </constraints>
                                             <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BOa-mH-Z6C">
                                                 <size key="itemSize" width="128" height="128"/>
@@ -102,7 +102,7 @@
                                             </connections>
                                         </collectionView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nf8-n0-8Hk">
-                                            <rect key="frame" x="0.0" y="259" width="414" height="362"/>
+                                            <rect key="frame" x="0.0" y="305.5" width="414" height="362"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search by catagories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BB-37-N7R">
                                                     <rect key="frame" x="16" y="25" width="126" height="17"/>
@@ -141,15 +141,15 @@
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
+                                        <constraint firstItem="evN-B2-i96" firstAttribute="leading" secondItem="Q7u-k0-Gd4" secondAttribute="leading" id="038-sM-qpY"/>
                                         <constraint firstAttribute="trailing" secondItem="QX8-qB-xKm" secondAttribute="trailing" constant="16" id="0Xk-EH-TCP"/>
                                         <constraint firstItem="QX8-qB-xKm" firstAttribute="leading" secondItem="Q7u-k0-Gd4" secondAttribute="leading" constant="16" id="66P-YA-7lh"/>
-                                        <constraint firstItem="evN-B2-i96" firstAttribute="leading" secondItem="Q7u-k0-Gd4" secondAttribute="leading" id="8SA-up-Lbc"/>
                                         <constraint firstItem="nf8-n0-8Hk" firstAttribute="top" secondItem="evN-B2-i96" secondAttribute="bottom" id="GRq-Gd-uIC"/>
                                         <constraint firstItem="QX8-qB-xKm" firstAttribute="top" secondItem="Q7u-k0-Gd4" secondAttribute="top" constant="26" id="H6t-6x-bG3"/>
                                         <constraint firstAttribute="trailing" secondItem="nf8-n0-8Hk" secondAttribute="trailing" id="NNc-Z6-SaY"/>
                                         <constraint firstItem="nf8-n0-8Hk" firstAttribute="leading" secondItem="Q7u-k0-Gd4" secondAttribute="leading" id="b4H-Ha-deM"/>
-                                        <constraint firstAttribute="trailing" secondItem="evN-B2-i96" secondAttribute="trailing" id="blb-nX-eic"/>
                                         <constraint firstAttribute="bottom" secondItem="nf8-n0-8Hk" secondAttribute="bottom" id="c2v-Ee-dZx"/>
+                                        <constraint firstAttribute="trailing" secondItem="evN-B2-i96" secondAttribute="trailing" id="ceg-cZ-5Gi"/>
                                         <constraint firstItem="evN-B2-i96" firstAttribute="top" secondItem="QX8-qB-xKm" secondAttribute="bottom" constant="20" id="gGm-6w-wYz"/>
                                     </constraints>
                                 </view>

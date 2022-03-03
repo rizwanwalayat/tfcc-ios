@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchSpecialistViewController: UIViewController {
+class PhysicianListingViewController: UIViewController {
 
     //MARK: - IBOutlets
     @IBOutlet weak var searchTextField: UITextField!
@@ -39,7 +39,7 @@ class SearchSpecialistViewController: UIViewController {
 }
 
 //MARK: - UITextFieldDelegate
-extension SearchSpecialistViewController: UITextFieldDelegate {
+extension PhysicianListingViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         if textField == searchTextField {
@@ -50,7 +50,7 @@ extension SearchSpecialistViewController: UITextFieldDelegate {
 }
 
 //MARK: - UICollectionView Delegates
-extension SearchSpecialistViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension PhysicianListingViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == bannersCollectionView {
             return 2
