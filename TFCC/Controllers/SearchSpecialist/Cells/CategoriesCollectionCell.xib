@@ -26,7 +26,7 @@
                         <rect key="frame" x="20" y="0.0" width="154" height="154"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="psychological-" translatesAutoresizingMaskIntoConstraints="NO" id="J6a-3r-UMd">
-                                <rect key="frame" x="13" y="38.5" width="128" height="77"/>
+                                <rect key="frame" x="31" y="31" width="92" height="92"/>
                                 <color key="tintColor" name="ThemeColor"/>
                             </imageView>
                         </subviews>
@@ -34,7 +34,8 @@
                         <constraints>
                             <constraint firstItem="J6a-3r-UMd" firstAttribute="centerX" secondItem="EDd-p4-t2A" secondAttribute="centerX" id="0AC-hO-RjZ"/>
                             <constraint firstAttribute="width" secondItem="EDd-p4-t2A" secondAttribute="height" multiplier="1:1" id="5Yd-tP-RHe"/>
-                            <constraint firstItem="J6a-3r-UMd" firstAttribute="height" secondItem="EDd-p4-t2A" secondAttribute="height" multiplier="0.5" id="mrc-JH-TLY"/>
+                            <constraint firstItem="J6a-3r-UMd" firstAttribute="width" secondItem="EDd-p4-t2A" secondAttribute="width" multiplier="0.6" id="RgW-VS-H5x"/>
+                            <constraint firstItem="J6a-3r-UMd" firstAttribute="height" secondItem="EDd-p4-t2A" secondAttribute="height" multiplier="0.6" id="dPw-X2-sNV"/>
                             <constraint firstItem="J6a-3r-UMd" firstAttribute="centerY" secondItem="EDd-p4-t2A" secondAttribute="centerY" id="x40-cJ-HY2"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
