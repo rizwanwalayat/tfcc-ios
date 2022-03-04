@@ -32,6 +32,7 @@
 		9618727327CE79EF0063089E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618727127CE79EF0063089E /* SignInViewController.swift */; };
 		961AF2F427D2407D0096B1C6 /* PhysicianListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961AF2F227D2407D0096B1C6 /* PhysicianListingTableViewCell.swift */; };
 		961AF2F527D2407D0096B1C6 /* PhysicianListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961AF2F327D2407D0096B1C6 /* PhysicianListingTableViewCell.xib */; };
+		961AF2F827D257D80096B1C6 /* PhysicianListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961AF2F727D257D80096B1C6 /* PhysicianListingViewModel.swift */; };
 		96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1E27C67E460007B579 /* Lato-Thin.ttf */; };
 		96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1F27C67E460007B579 /* Lato-Regular.ttf */; };
 		96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */; };
@@ -95,6 +96,7 @@
 		9618727127CE79EF0063089E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		961AF2F227D2407D0096B1C6 /* PhysicianListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianListingTableViewCell.swift; sourceTree = "<group>"; };
 		961AF2F327D2407D0096B1C6 /* PhysicianListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhysicianListingTableViewCell.xib; sourceTree = "<group>"; };
+		961AF2F727D257D80096B1C6 /* PhysicianListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianListingViewModel.swift; sourceTree = "<group>"; };
 		96426B1E27C67E460007B579 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		96426B1F27C67E460007B579 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
@@ -256,6 +258,14 @@
 			path = SignIn;
 			sourceTree = "<group>";
 		};
+		961AF2F627D257990096B1C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				961AF2F727D257D80096B1C6 /* PhysicianListingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		96426B1C27C67DE80007B579 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +388,7 @@
 		96DCB07E27D0DA9700333F16 /* PhysicianListing */ = {
 			isa = PBXGroup;
 			children = (
+				961AF2F627D257990096B1C6 /* ViewModel */,
 				96DCB07F27D0DA9700333F16 /* Cells */,
 				96DCB08427D0DA9700333F16 /* PhysicianListingViewController.swift */,
 				96DCB08527D0DA9700333F16 /* PhysicianListingViewController.xib */,
@@ -523,6 +534,7 @@
 				96A7089F27CCE16300839A2C /* DataManager.swift in Sources */,
 				69F4D76327C9420F00812481 /* LastRowCenteredLayout.swift in Sources */,
 				69F4D75F27C9342C00812481 /* CategoriesCollectionCell.swift in Sources */,
+				961AF2F827D257D80096B1C6 /* PhysicianListingViewModel.swift in Sources */,
 				968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */,
 				69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */,
 				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,

@@ -91,4 +91,8 @@ extension SearchSpecialistViewController: UICollectionViewDelegate, UICollection
         }
         return CGSize(width: 0, height: 0)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        coordinator?.patientSubCategoryScreen()
+    }
 }

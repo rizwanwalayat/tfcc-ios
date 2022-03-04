@@ -233,7 +233,7 @@
         <image name="profile-" width="26" height="26"/>
         <image name="search-" width="15.5" height="15.5"/>
         <namedColor name="BlackText">
-            <color red="0.019999999552965164" green="0.050999999046325684" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.10999999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TextFieldBorder">
             <color red="0.72200000286102295" green="0.72200000286102295" blue="0.72200000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

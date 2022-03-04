@@ -156,4 +156,8 @@ extension PatientSubCategoryViewController: UICollectionViewDelegate, UICollecti
         }
         return UICollectionReusableView()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        coordinator?.physicianListingScreen()
+    }
 }
