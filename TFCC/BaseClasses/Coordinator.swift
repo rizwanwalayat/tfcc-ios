@@ -87,4 +87,9 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
+    func fAQsSupportPrivacyScreen(){
+        let vc = FAQsSupportPrivacyViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
 }

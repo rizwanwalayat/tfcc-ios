@@ -17,7 +17,7 @@ extension UIColor {
     static var blackText: UIColor {
         return UIColor(named: "BlackText") ?? UIColor(hexString: "1C1C1C")
     }
-    static var borderGrey: UIColor {
+    static var BorderGrey: UIColor {
         return UIColor(named: "BorderGrey") ?? UIColor(hexString: "B8B8B8")
     }
 }
