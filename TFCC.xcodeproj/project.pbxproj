@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */; };
+		69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */; };
+		69A599EF27D08B3600471E7F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EE27D08B3600471E7F /* UIView.swift */; };
+		69A599F327D0DFF900471E7F /* CollectionViewHeaderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599F127D0DFF900471E7F /* CollectionViewHeaderLine.swift */; };
+		69A599F427D0DFF900471E7F /* CollectionViewHeaderLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A599F227D0DFF900471E7F /* CollectionViewHeaderLine.xib */; };
 		69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */; };
 		69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */; };
 		69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D75927C918F200812481 /* BannerCollectionCell.swift */; };
@@ -37,7 +42,6 @@
 		968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */; };
 		968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */; };
 		968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162927C90C6100B01E83 /* RoundButton.swift */; };
-		96A7089E27CCDD7400839A2C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A7089D27CCDD7400839A2C /* UIView.swift */; };
 		96A7089F27CCE16300839A2C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32B27C67911009A5F5B /* DataManager.swift */; };
 		96A708A127CCE37700839A2C /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A708A027CCE37700839A2C /* UITextField.swift */; };
 		96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684427C792D9004372D7 /* BaseViewController.swift */; };
@@ -61,6 +65,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSubCategoryViewController.swift; sourceTree = "<group>"; };
+		69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientSubCategoryViewController.xib; sourceTree = "<group>"; };
+		69A599EE27D08B3600471E7F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		69A599F127D0DFF900471E7F /* CollectionViewHeaderLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHeaderLine.swift; sourceTree = "<group>"; };
+		69A599F227D0DFF900471E7F /* CollectionViewHeaderLine.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewHeaderLine.xib; sourceTree = "<group>"; };
 		69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSpecialistViewController.swift; sourceTree = "<group>"; };
 		69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchSpecialistViewController.xib; sourceTree = "<group>"; };
 		69F4D75927C918F200812481 /* BannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionCell.swift; sourceTree = "<group>"; };
@@ -91,7 +100,6 @@
 		968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSignUpViewController.swift; sourceTree = "<group>"; };
 		968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeSignUpViewController.xib; sourceTree = "<group>"; };
 		968B162927C90C6100B01E83 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
-		96A7089D27CCDD7400839A2C /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../../../../UIView.swift; sourceTree = "<group>"; };
 		96A708A027CCE37700839A2C /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		96B7684427C792D9004372D7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		96B7684627C793A3004372D7 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
@@ -127,6 +135,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69A599E927D089FE00471E7F /* PatientSubCategory */ = {
+			isa = PBXGroup;
+			children = (
+				69A599F027D0DFCC00471E7F /* HeaderView */,
+				69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */,
+				69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */,
+			);
+			path = PatientSubCategory;
+			sourceTree = "<group>";
+		};
+		69A599F027D0DFCC00471E7F /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				69A599F127D0DFF900471E7F /* CollectionViewHeaderLine.swift */,
+				69A599F227D0DFF900471E7F /* CollectionViewHeaderLine.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
 		69F4D74927C900D300812481 /* SearchSpecialist */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,8 +273,8 @@
 		965A8ABF27C9413D007DDE1C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				69A599EE27D08B3600471E7F /* UIView.swift */,
 				96A708A027CCE37700839A2C /* UITextField.swift */,
-				96A7089D27CCDD7400839A2C /* UIView.swift */,
 				965A8AC027C94154007DDE1C /* UIColorExtensions.swift */,
 			);
 			path = Extensions;
@@ -299,6 +326,7 @@
 				96DCB07E27D0DA9700333F16 /* PhysicianListing */,
 				960AB2AC27CD005A00F9B156 /* Onboarding */,
 				69F4D74927C900D300812481 /* SearchSpecialist */,
+				69A599E927D089FE00471E7F /* PatientSubCategory */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -426,6 +454,7 @@
 				96E7985D27CFB4A6005F00B1 /* VerificationCodeViewController.xib in Resources */,
 				9618726D27CE37DD0063089E /* SignUp3TOSViewController.xib in Resources */,
 				9618727227CE79EF0063089E /* SignInViewController.xib in Resources */,
+				69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */,
 				96F1F6B627CFE1C7002D8D86 /* ConfirmPasswordViewController.xib in Resources */,
 				96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */,
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
@@ -435,6 +464,7 @@
 				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
 				69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */,
 				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
+				69A599F427D0DFF900471E7F /* CollectionViewHeaderLine.xib in Resources */,
 				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
 				965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */,
@@ -456,11 +486,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A599F327D0DFF900471E7F /* CollectionViewHeaderLine.swift in Sources */,
 				96A7089F27CCE16300839A2C /* DataManager.swift in Sources */,
-				96A7089E27CCDD7400839A2C /* UIView.swift in Sources */,
 				69F4D76327C9420F00812481 /* LastRowCenteredLayout.swift in Sources */,
 				69F4D75F27C9342C00812481 /* CategoriesCollectionCell.swift in Sources */,
 				968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */,
+				69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */,
 				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,
 				96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
@@ -473,6 +504,7 @@
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96DCB08A27D0DA9700333F16 /* PhysicianListingViewController.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
+				69A599EF27D08B3600471E7F /* UIView.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
 				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
 				960AB2AA27CD004C00F9B156 /* SignUp2ViewController.swift in Sources */,
