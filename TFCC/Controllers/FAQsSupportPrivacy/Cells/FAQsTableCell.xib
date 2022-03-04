@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="faqCell" rowHeight="146" id="KGk-i7-Jjw" customClass="FAQsTableCell" customModule="TFCC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="146"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8G0-xW-NF6">
+                        <rect key="frame" x="16" y="20" width="353" height="126"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SlO-EK-MdF">
+                                <rect key="frame" x="292.5" y="50.5" width="42.5" height="25"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow-down-"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="18/02/2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbe-HS-U9m">
+                                <rect key="frame" x="9" y="13" width="65" height="14.5"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" name="BlackText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Alcool - Tabac Drogues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIK-EV-0yq">
+                                <rect key="frame" x="9" y="31.5" width="279" height="21"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                <color key="textColor" name="ThemeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="WhiteBackground"/>
+                        <constraints>
+                            <constraint firstItem="SlO-EK-MdF" firstAttribute="centerY" secondItem="8G0-xW-NF6" secondAttribute="centerY" id="0Pm-ZB-SFT"/>
+                            <constraint firstItem="sIK-EV-0yq" firstAttribute="leading" secondItem="8G0-xW-NF6" secondAttribute="leading" constant="9" id="C8m-47-iXZ"/>
+                            <constraint firstAttribute="trailing" secondItem="SlO-EK-MdF" secondAttribute="trailing" constant="18" id="Frh-j4-NzG"/>
+                            <constraint firstItem="Kbe-HS-U9m" firstAttribute="top" secondItem="8G0-xW-NF6" secondAttribute="top" constant="13" id="GEB-fi-Dfd"/>
+                            <constraint firstAttribute="bottom" secondItem="sIK-EV-0yq" secondAttribute="bottom" constant="13" id="T5P-ar-Gq9"/>
+                            <constraint firstItem="sIK-EV-0yq" firstAttribute="top" secondItem="Kbe-HS-U9m" secondAttribute="bottom" constant="4" id="mJ5-Vh-4L5"/>
+                            <constraint firstItem="Kbe-HS-U9m" firstAttribute="leading" secondItem="8G0-xW-NF6" secondAttribute="leading" constant="9" id="nXv-ud-QOP"/>
+                            <constraint firstAttribute="trailing" secondItem="sIK-EV-0yq" secondAttribute="trailing" constant="65" id="o5o-ES-Bqj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="17"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8G0-xW-NF6" secondAttribute="bottom" id="JTK-Wx-LLD"/>
+                    <constraint firstItem="8G0-xW-NF6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="TSB-pT-6JO"/>
+                    <constraint firstItem="8G0-xW-NF6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="VYD-3f-bRK"/>
+                    <constraint firstAttribute="trailing" secondItem="8G0-xW-NF6" secondAttribute="trailing" constant="16" id="egM-Xm-8zX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="containerViewTopConstraint" destination="TSB-pT-6JO" id="6sv-c4-O4G"/>
+            </connections>
+            <point key="canvasLocation" x="178.98550724637681" y="129.91071428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow-down-" width="18.5" height="11"/>
+        <namedColor name="BlackText">
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.10999999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeColor">
+            <color red="0.19200000166893005" green="0.81599998474121094" blue="0.83099997043609619" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

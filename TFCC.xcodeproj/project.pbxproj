@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6937B17127D21705002C8C05 /* FAQsSupportPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */; };
+		6937B17227D21705002C8C05 /* FAQsSupportPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */; };
+		6937B17627D23262002C8C05 /* FAQsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B17427D23262002C8C05 /* FAQsTableCell.swift */; };
+		6937B17727D23262002C8C05 /* FAQsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17527D23262002C8C05 /* FAQsTableCell.xib */; };
+		69983EF227D246050021F002 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69983EF127D246050021F002 /* CustomTextField.swift */; };
 		69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */; };
 		69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */; };
 		69A599EF27D08B3600471E7F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EE27D08B3600471E7F /* UIView.swift */; };
@@ -65,6 +70,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsSupportPrivacyViewController.swift; sourceTree = "<group>"; };
+		6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsSupportPrivacyViewController.xib; sourceTree = "<group>"; };
+		6937B17427D23262002C8C05 /* FAQsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsTableCell.swift; sourceTree = "<group>"; };
+		6937B17527D23262002C8C05 /* FAQsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsTableCell.xib; sourceTree = "<group>"; };
+		69983EF127D246050021F002 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSubCategoryViewController.swift; sourceTree = "<group>"; };
 		69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientSubCategoryViewController.xib; sourceTree = "<group>"; };
 		69A599EE27D08B3600471E7F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -135,6 +145,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6937B16E27D216CD002C8C05 /* FAQsSupportPrivacy */ = {
+			isa = PBXGroup;
+			children = (
+				6937B17327D23245002C8C05 /* Cells */,
+				6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */,
+				6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */,
+			);
+			path = FAQsSupportPrivacy;
+			sourceTree = "<group>";
+		};
+		6937B17327D23245002C8C05 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6937B17427D23262002C8C05 /* FAQsTableCell.swift */,
+				6937B17527D23262002C8C05 /* FAQsTableCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		69A599E927D089FE00471E7F /* PatientSubCategory */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */,
+				69983EF127D246050021F002 /* CustomTextField.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -323,6 +353,7 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6937B16E27D216CD002C8C05 /* FAQsSupportPrivacy */,
 				96DCB07E27D0DA9700333F16 /* PhysicianListing */,
 				960AB2AC27CD005A00F9B156 /* Onboarding */,
 				69F4D74927C900D300812481 /* SearchSpecialist */,
@@ -464,6 +495,7 @@
 				96E7985827CFB156005F00B1 /* ForgotPasswordViewController.xib in Resources */,
 				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
 				69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */,
+				6937B17727D23262002C8C05 /* FAQsTableCell.xib in Resources */,
 				96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */,
 				69A599F427D0DFF900471E7F /* CollectionViewHeaderLine.xib in Resources */,
 				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
@@ -474,6 +506,7 @@
 				960AB2AB27CD004C00F9B156 /* SignUp2ViewController.xib in Resources */,
 				69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
+				6937B17227D21705002C8C05 /* FAQsSupportPrivacyViewController.xib in Resources */,
 				96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */,
 				69F4D76027C9342C00812481 /* CategoriesCollectionCell.xib in Resources */,
 			);
@@ -499,12 +532,15 @@
 				96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */,
 				9618727327CE79EF0063089E /* SignInViewController.swift in Sources */,
 				9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */,
+				6937B17627D23262002C8C05 /* FAQsTableCell.swift in Sources */,
+				69983EF227D246050021F002 /* CustomTextField.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
 				96F1F6B727CFE1C7002D8D86 /* ConfirmPasswordViewController.swift in Sources */,
 				961AF2F427D2407D0096B1C6 /* PhysicianListingTableViewCell.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96DCB08A27D0DA9700333F16 /* PhysicianListingViewController.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
+				6937B17127D21705002C8C05 /* FAQsSupportPrivacyViewController.swift in Sources */,
 				69A599EF27D08B3600471E7F /* UIView.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
 				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
@@ -653,7 +689,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5PK8B2YGTB;
+				DEVELOPMENT_TEAM = 44DP3S6578;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TFCC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -680,7 +716,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5PK8B2YGTB;
+				DEVELOPMENT_TEAM = 44DP3S6578;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TFCC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
