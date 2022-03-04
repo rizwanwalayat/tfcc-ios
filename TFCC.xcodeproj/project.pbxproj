@@ -25,6 +25,8 @@
 		9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618726C27CE37DD0063089E /* SignUp3TOSViewController.swift */; };
 		9618727227CE79EF0063089E /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9618727027CE79EF0063089E /* SignInViewController.xib */; };
 		9618727327CE79EF0063089E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618727127CE79EF0063089E /* SignInViewController.swift */; };
+		961AF2F427D2407D0096B1C6 /* PhysicianListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961AF2F227D2407D0096B1C6 /* PhysicianListingTableViewCell.swift */; };
+		961AF2F527D2407D0096B1C6 /* PhysicianListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961AF2F327D2407D0096B1C6 /* PhysicianListingTableViewCell.xib */; };
 		96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1E27C67E460007B579 /* Lato-Thin.ttf */; };
 		96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1F27C67E460007B579 /* Lato-Regular.ttf */; };
 		96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */; };
@@ -54,8 +56,6 @@
 		96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32927C67749009A5F5B /* Coordinator.swift */; };
 		96DCB08A27D0DA9700333F16 /* PhysicianListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCB08427D0DA9700333F16 /* PhysicianListingViewController.swift */; };
 		96DCB08B27D0DA9700333F16 /* PhysicianListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DCB08527D0DA9700333F16 /* PhysicianListingViewController.xib */; };
-		96DCB09227D0E42200333F16 /* PhysicianListingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCB09027D0E42200333F16 /* PhysicianListingCollectionViewCell.swift */; };
-		96DCB09327D0E42200333F16 /* PhysicianListingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DCB09127D0E42200333F16 /* PhysicianListingCollectionViewCell.xib */; };
 		96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7985527CFB156005F00B1 /* ForgotPasswordViewController.swift */; };
 		96E7985827CFB156005F00B1 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E7985627CFB156005F00B1 /* ForgotPasswordViewController.xib */; };
 		96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E7985A27CFB4A6005F00B1 /* VerificationCodeViewController.swift */; };
@@ -83,6 +83,8 @@
 		9618726C27CE37DD0063089E /* SignUp3TOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp3TOSViewController.swift; sourceTree = "<group>"; };
 		9618727027CE79EF0063089E /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		9618727127CE79EF0063089E /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		961AF2F227D2407D0096B1C6 /* PhysicianListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianListingTableViewCell.swift; sourceTree = "<group>"; };
+		961AF2F327D2407D0096B1C6 /* PhysicianListingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhysicianListingTableViewCell.xib; sourceTree = "<group>"; };
 		96426B1E27C67E460007B579 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		96426B1F27C67E460007B579 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
@@ -114,8 +116,6 @@
 		96BEC32B27C67911009A5F5B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		96DCB08427D0DA9700333F16 /* PhysicianListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicianListingViewController.swift; sourceTree = "<group>"; };
 		96DCB08527D0DA9700333F16 /* PhysicianListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhysicianListingViewController.xib; sourceTree = "<group>"; };
-		96DCB09027D0E42200333F16 /* PhysicianListingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianListingCollectionViewCell.swift; sourceTree = "<group>"; };
-		96DCB09127D0E42200333F16 /* PhysicianListingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhysicianListingCollectionViewCell.xib; sourceTree = "<group>"; };
 		96E7985527CFB156005F00B1 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		96E7985627CFB156005F00B1 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		96E7985A27CFB4A6005F00B1 /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
@@ -357,8 +357,8 @@
 		96DCB07F27D0DA9700333F16 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				96DCB09027D0E42200333F16 /* PhysicianListingCollectionViewCell.swift */,
-				96DCB09127D0E42200333F16 /* PhysicianListingCollectionViewCell.xib */,
+				961AF2F227D2407D0096B1C6 /* PhysicianListingTableViewCell.swift */,
+				961AF2F327D2407D0096B1C6 /* PhysicianListingTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -455,6 +455,7 @@
 				9618726D27CE37DD0063089E /* SignUp3TOSViewController.xib in Resources */,
 				9618727227CE79EF0063089E /* SignInViewController.xib in Resources */,
 				69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */,
+				961AF2F527D2407D0096B1C6 /* PhysicianListingTableViewCell.xib in Resources */,
 				96F1F6B627CFE1C7002D8D86 /* ConfirmPasswordViewController.xib in Resources */,
 				96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */,
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
@@ -470,7 +471,6 @@
 				965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */,
 				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
-				96DCB09327D0E42200333F16 /* PhysicianListingCollectionViewCell.xib in Resources */,
 				960AB2AB27CD004C00F9B156 /* SignUp2ViewController.xib in Resources */,
 				69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
@@ -501,6 +501,7 @@
 				9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
 				96F1F6B727CFE1C7002D8D86 /* ConfirmPasswordViewController.swift in Sources */,
+				961AF2F427D2407D0096B1C6 /* PhysicianListingTableViewCell.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96DCB08A27D0DA9700333F16 /* PhysicianListingViewController.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
@@ -511,7 +512,6 @@
 				965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,
 				96A708A127CCE37700839A2C /* UITextField.swift in Sources */,
-				96DCB09227D0E42200333F16 /* PhysicianListingCollectionViewCell.swift in Sources */,
 				968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
