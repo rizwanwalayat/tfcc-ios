@@ -11,6 +11,7 @@
 		6937B17227D21705002C8C05 /* FAQsSupportPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */; };
 		6937B17627D23262002C8C05 /* FAQsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B17427D23262002C8C05 /* FAQsTableCell.swift */; };
 		6937B17727D23262002C8C05 /* FAQsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17527D23262002C8C05 /* FAQsTableCell.xib */; };
+		69983EF227D246050021F002 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69983EF127D246050021F002 /* CustomTextField.swift */; };
 		69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */; };
 		69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */; };
 		69A599EF27D08B3600471E7F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EE27D08B3600471E7F /* UIView.swift */; };
@@ -73,6 +74,7 @@
 		6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsSupportPrivacyViewController.xib; sourceTree = "<group>"; };
 		6937B17427D23262002C8C05 /* FAQsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsTableCell.swift; sourceTree = "<group>"; };
 		6937B17527D23262002C8C05 /* FAQsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsTableCell.xib; sourceTree = "<group>"; };
+		69983EF127D246050021F002 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSubCategoryViewController.swift; sourceTree = "<group>"; };
 		69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientSubCategoryViewController.xib; sourceTree = "<group>"; };
 		69A599EE27D08B3600471E7F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */,
+				69983EF127D246050021F002 /* CustomTextField.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -530,6 +533,7 @@
 				9618727327CE79EF0063089E /* SignInViewController.swift in Sources */,
 				9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */,
 				6937B17627D23262002C8C05 /* FAQsTableCell.swift in Sources */,
+				69983EF227D246050021F002 /* CustomTextField.swift in Sources */,
 				96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */,
 				96F1F6B727CFE1C7002D8D86 /* ConfirmPasswordViewController.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,

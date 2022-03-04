@@ -14,8 +14,20 @@ class FAQsSupportPrivacyViewController: UIViewController {
     @IBOutlet weak var supportButton: UIButton!
     @IBOutlet weak var privacyButton: UIButton!
     @IBOutlet weak var screenTitleLabel: UILabel!
+    
+    // FAQS View
     @IBOutlet var FAQsView: UIView!
+    @IBOutlet var supportView: UIView!
     @IBOutlet weak var tableView: UITableView!
+    
+    // Support View
+    @IBOutlet weak var questionTitle: UITextField!
+    @IBOutlet weak var qustionDetailTextField: CustomTextField!{
+        didSet {
+            qustionDetailTextField.placeholderRect(forBounds: CGRect(x: 10, y: 0 , width: 60, height: 50))
+        }
+    }
+    @IBOutlet weak var checkMarkButton: UIButton!
     
     //MARK: - Variables
     var coordinator: MainCoordinator?
@@ -36,11 +48,18 @@ class FAQsSupportPrivacyViewController: UIViewController {
     @IBAction func supportButtonAction(_ sender: UIButton) {
         toggleButton(selectedButton: supportButton)
         screenTitleLabel.text = "Support"
+        popupViewConstraints(toView: supportView, topConstraint: 194)
     }
     @IBAction func privacyButtonAction(_ sender: UIButton) {
         toggleButton(selectedButton: privacyButton)
         screenTitleLabel.text = "Privacy Policy"
     }
+    
+    // Support View
+    @IBAction func checkmarkButtonAction(_ sender: UIButton) {
+        
+    }
+    
     //MARK: - Selectors
     
     //MARK: - Private Methods
