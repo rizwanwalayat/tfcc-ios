@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PhysicianListingViewController: UIViewController {
+class PhysicianListingViewController: BaseViewController {
 
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!
@@ -15,7 +15,6 @@ class PhysicianListingViewController: UIViewController {
 
     
     //MARK: - Variables
-    var coordinator: MainCoordinator?
     
     //MARK: - Lifecycle
     override func viewDidLoad() {
@@ -26,9 +25,7 @@ class PhysicianListingViewController: UIViewController {
     
     //MARK: - Private Methods
     private func setup() {
-        
-//        searchTextField.delegate = self
-        
+                
         tableView.register(UINib(nibName: "PhysicianListingTableViewCell", bundle: nil), forCellReuseIdentifier: "PhysicianListingTableViewCell")
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = UITableView.automaticDimension
@@ -43,16 +40,7 @@ class PhysicianListingViewController: UIViewController {
 //    }
 }
 
-//MARK: - UITextFieldDelegate
-//extension PhysicianListingViewController: UITextFieldDelegate {
-//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        
-//        if textField == searchTextField {
-//            textField.resignFirstResponder()
-//        }
-//        return true
-//    }
-//}
+
 
 //MARK: - UITableViewDelegate, UITableViewDataSource
 extension PhysicianListingViewController: UITableViewDataSource, UITableViewDelegate {

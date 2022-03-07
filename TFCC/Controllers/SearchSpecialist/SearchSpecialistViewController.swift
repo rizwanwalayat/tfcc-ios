@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchSpecialistViewController: UIViewController {
+class SearchSpecialistViewController: BaseViewController {
 
     //MARK: - IBOutlets
     @IBOutlet weak var searchTextField: UITextField!
@@ -16,7 +16,6 @@ class SearchSpecialistViewController: UIViewController {
     @IBOutlet weak var categoriesCollectionViewHeightConstraint: NSLayoutConstraint!
     
     //MARK: - Variables
-    var coordinator: MainCoordinator?
     
     //MARK: - Lifecycle
     override func viewDidLoad() {

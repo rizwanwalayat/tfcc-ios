@@ -180,6 +180,9 @@
                                     <rect key="frame" x="348" y="62" width="50" height="40"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" image="profile-"/>
+                                    <connections>
+                                        <action selector="goToPatientProfile" destination="-1" eventType="touchUpInside" id="4VP-Ke-vYG"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" name="ThemeColor"/>

@@ -102,6 +102,9 @@ open class BaseViewController: UIViewController {
         }
     }
     
+    @IBAction func goToPatientProfile(){
+        coordinator?.patientProfileScreen()
+    }
     
 //    func presentUIActivityControl() {
 //        
