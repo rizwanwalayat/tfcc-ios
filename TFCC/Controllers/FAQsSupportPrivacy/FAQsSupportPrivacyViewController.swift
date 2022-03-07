@@ -43,12 +43,14 @@ class FAQsSupportPrivacyViewController: UIViewController {
     @IBAction func FAQsButtonAction(_ sender: UIButton) {
         toggleButton(selectedButton: FAQsButton)
         screenTitleLabel.text = "FAQs"
-        popupViewConstraints(toView: FAQsView, topConstraint: 194)
+        FAQsView.isHidden = false
+        supportView.isHidden = true
     }
     @IBAction func supportButtonAction(_ sender: UIButton) {
         toggleButton(selectedButton: supportButton)
         screenTitleLabel.text = "Support"
-        popupViewConstraints(toView: supportView, topConstraint: 194)
+        FAQsView.isHidden = true
+        supportView.isHidden = false
     }
     @IBAction func privacyButtonAction(_ sender: UIButton) {
         toggleButton(selectedButton: privacyButton)
@@ -65,6 +67,10 @@ class FAQsSupportPrivacyViewController: UIViewController {
     //MARK: - Private Methods
     private func setup() {
         toggleButton(selectedButton: FAQsButton)
+        popupViewConstraints(toView: FAQsView, topConstraint: 194)
+        popupViewConstraints(toView: supportView, topConstraint: 194)
+        FAQsView.isHidden = false
+        supportView.isHidden = true
         tableView.register(UINib(nibName: "FAQsTableCell", bundle: nil), forCellReuseIdentifier: "faqCell")
     }
     private func toggleButton(selectedButton: UIButton) {
