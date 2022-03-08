@@ -100,9 +100,13 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
-    
     func patientProfileScreen(){
         let vc = PatientProfileViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
+    func physicianProfileScreen(){
+        let vc = PhysicianProfileViewController()
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
