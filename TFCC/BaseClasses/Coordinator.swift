@@ -110,4 +110,9 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
+    func bookingDateTimeScreen(){
+        let vc = BookingDateTimeViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
 }

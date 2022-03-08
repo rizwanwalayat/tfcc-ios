@@ -19,6 +19,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhysicianProfileViewController" customModule="TFCC" customModuleProvider="target">
             <connections>
+                <outlet property="mapsView" destination="Ahc-ZB-2zh" id="VgB-ZJ-ULo"/>
                 <outlet property="tableView" destination="DlI-xJ-gM0" id="xmm-RQ-ybz"/>
                 <outlet property="tableViewHeightConstraint" destination="yxC-l0-Cku" id="TTa-nu-Lmj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -195,7 +196,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYB-U8-21i">
-                            <rect key="frame" x="0.0" y="363" width="414" height="533"/>
+                            <rect key="frame" x="0.0" y="363" width="414" height="438"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qwa-Of-lVT">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="410"/>
@@ -322,7 +323,7 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ahc-ZB-2zh">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ahc-ZB-2zh" customClass="GMSMapView">
                                             <rect key="frame" x="16" y="200" width="382" height="190"/>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <constraints>
@@ -356,17 +357,37 @@
                                 <constraint firstItem="qwa-Of-lVT" firstAttribute="top" secondItem="oYB-U8-21i" secondAttribute="top" id="rWx-vR-ELw"/>
                             </constraints>
                         </scrollView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gaa-cP-ch3">
+                            <rect key="frame" x="16" y="821" width="382" height="50"/>
+                            <color key="backgroundColor" name="ThemeColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="bth-UQ-LkQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Book Now">
+                                <color key="titleColor" name="WhiteText"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="19"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" name="GrayBackground"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="bzs-QE-X2f" secondAttribute="trailing" constant="16" id="12W-Qv-xdd"/>
                         <constraint firstAttribute="trailing" secondItem="WhA-i0-2Cw" secondAttribute="trailing" id="28B-RC-0E5"/>
-                        <constraint firstAttribute="bottom" secondItem="oYB-U8-21i" secondAttribute="bottom" id="5ej-1x-ENX"/>
                         <constraint firstItem="oYB-U8-21i" firstAttribute="leading" secondItem="hko-AG-W9C" secondAttribute="leading" id="Fim-3y-eCi"/>
+                        <constraint firstAttribute="trailing" secondItem="Gaa-cP-ch3" secondAttribute="trailing" constant="16" id="HB8-EH-L6m"/>
                         <constraint firstItem="bzs-QE-X2f" firstAttribute="leading" secondItem="hko-AG-W9C" secondAttribute="leading" constant="16" id="JPx-2v-TBn"/>
+                        <constraint firstAttribute="bottom" secondItem="Gaa-cP-ch3" secondAttribute="bottom" constant="25" id="Rp9-az-cHf"/>
+                        <constraint firstItem="Gaa-cP-ch3" firstAttribute="top" secondItem="oYB-U8-21i" secondAttribute="bottom" constant="20" id="SFB-Lp-6lK"/>
                         <constraint firstItem="oYB-U8-21i" firstAttribute="top" secondItem="bzs-QE-X2f" secondAttribute="bottom" id="Wgg-aL-wZn"/>
                         <constraint firstAttribute="trailing" secondItem="oYB-U8-21i" secondAttribute="trailing" id="ahg-ok-cg6"/>
                         <constraint firstItem="WhA-i0-2Cw" firstAttribute="top" secondItem="hko-AG-W9C" secondAttribute="top" id="dAL-7V-YaS"/>
+                        <constraint firstItem="Gaa-cP-ch3" firstAttribute="leading" secondItem="hko-AG-W9C" secondAttribute="leading" constant="16" id="gRQ-Jv-qOO"/>
                         <constraint firstItem="bzs-QE-X2f" firstAttribute="top" secondItem="psh-9L-LrD" secondAttribute="bottom" constant="30" id="mr8-1Y-ygZ"/>
                         <constraint firstItem="WhA-i0-2Cw" firstAttribute="leading" secondItem="hko-AG-W9C" secondAttribute="leading" id="y7U-Q0-QcD"/>
                     </constraints>

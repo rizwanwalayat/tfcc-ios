@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B77169BD0C030C1966862A2 /* Pods_TFCC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD8362F35972FF144DCFB59 /* Pods_TFCC.framework */; };
 		6937B17127D21705002C8C05 /* FAQsSupportPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */; };
 		6937B17227D21705002C8C05 /* FAQsSupportPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */; };
 		6937B17627D23262002C8C05 /* FAQsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B17427D23262002C8C05 /* FAQsTableCell.swift */; };
 		6937B17727D23262002C8C05 /* FAQsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17527D23262002C8C05 /* FAQsTableCell.xib */; };
+		6953C0B527D76FC5007BE4CC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953C0B427D76FC5007BE4CC /* UIViewController.swift */; };
+		6953C0BD27D7890A007BE4CC /* BookingDateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953C0B727D78909007BE4CC /* BookingDateTimeViewController.swift */; };
+		6953C0BE27D7890A007BE4CC /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6953C0B827D7890A007BE4CC /* TimeCollectionViewCell.xib */; };
+		6953C0BF27D7890A007BE4CC /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953C0B927D7890A007BE4CC /* DateCollectionViewCell.swift */; };
+		6953C0C027D7890A007BE4CC /* BookingDateTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6953C0BA27D7890A007BE4CC /* BookingDateTimeViewController.xib */; };
+		6953C0C127D7890A007BE4CC /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953C0BB27D7890A007BE4CC /* TimeCollectionViewCell.swift */; };
+		6953C0C227D7890A007BE4CC /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6953C0BC27D7890A007BE4CC /* DateCollectionViewCell.xib */; };
 		69983EF227D246050021F002 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69983EF127D246050021F002 /* CustomTextField.swift */; };
 		69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */; };
 		69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */; };
@@ -80,10 +88,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31379D59F5C82BF184AA932D /* Pods-TFCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFCC.debug.xcconfig"; path = "Target Support Files/Pods-TFCC/Pods-TFCC.debug.xcconfig"; sourceTree = "<group>"; };
+		602B83CAA7E0981288814C0D /* Pods-TFCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFCC.release.xcconfig"; path = "Target Support Files/Pods-TFCC/Pods-TFCC.release.xcconfig"; sourceTree = "<group>"; };
 		6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsSupportPrivacyViewController.swift; sourceTree = "<group>"; };
 		6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsSupportPrivacyViewController.xib; sourceTree = "<group>"; };
 		6937B17427D23262002C8C05 /* FAQsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsTableCell.swift; sourceTree = "<group>"; };
 		6937B17527D23262002C8C05 /* FAQsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsTableCell.xib; sourceTree = "<group>"; };
+		6953C0B427D76FC5007BE4CC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		6953C0B727D78909007BE4CC /* BookingDateTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingDateTimeViewController.swift; sourceTree = "<group>"; };
+		6953C0B827D7890A007BE4CC /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		6953C0B927D7890A007BE4CC /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		6953C0BA27D7890A007BE4CC /* BookingDateTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingDateTimeViewController.xib; sourceTree = "<group>"; };
+		6953C0BB27D7890A007BE4CC /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		6953C0BC27D7890A007BE4CC /* DateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCollectionViewCell.xib; sourceTree = "<group>"; };
 		69983EF127D246050021F002 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSubCategoryViewController.swift; sourceTree = "<group>"; };
 		69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientSubCategoryViewController.xib; sourceTree = "<group>"; };
@@ -152,6 +169,7 @@
 		96E7985B27CFB4A6005F00B1 /* VerificationCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationCodeViewController.xib; sourceTree = "<group>"; };
 		96F1F6B427CFE1C7002D8D86 /* ConfirmPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmPasswordViewController.xib; sourceTree = "<group>"; };
 		96F1F6B527CFE1C7002D8D86 /* ConfirmPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordViewController.swift; sourceTree = "<group>"; };
+		CAD8362F35972FF144DCFB59 /* Pods_TFCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B77169BD0C030C1966862A2 /* Pods_TFCC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +201,19 @@
 				6937B17527D23262002C8C05 /* FAQsTableCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		6953C0B627D788DD007BE4CC /* BookingDateTime */ = {
+			isa = PBXGroup;
+			children = (
+				6953C0B927D7890A007BE4CC /* DateCollectionViewCell.swift */,
+				6953C0BC27D7890A007BE4CC /* DateCollectionViewCell.xib */,
+				6953C0B727D78909007BE4CC /* BookingDateTimeViewController.swift */,
+				6953C0BA27D7890A007BE4CC /* BookingDateTimeViewController.xib */,
+				6953C0BB27D7890A007BE4CC /* TimeCollectionViewCell.swift */,
+				6953C0B827D7890A007BE4CC /* TimeCollectionViewCell.xib */,
+			);
+			path = BookingDateTime;
 			sourceTree = "<group>";
 		};
 		69A599E927D089FE00471E7F /* PatientSubCategory */ = {
@@ -353,6 +385,7 @@
 				69A599EE27D08B3600471E7F /* UIView.swift */,
 				96A708A027CCE37700839A2C /* UITextField.swift */,
 				965A8AC027C94154007DDE1C /* UIColorExtensions.swift */,
+				6953C0B427D76FC5007BE4CC /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -399,6 +432,8 @@
 			children = (
 				96BEC30E27C66D65009A5F5B /* TFCC */,
 				96BEC30D27C66D65009A5F5B /* Products */,
+				E3932FC33BE52D4E4FB1D503 /* Pods */,
+				ABA5655D6FD54327F236E444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -428,6 +463,7 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6953C0B627D788DD007BE4CC /* BookingDateTime */,
 				96BEB7C627D647A400CBA072 /* PatientProfile */,
 				69F57E4727D620F4001EB8F9 /* PhysicianProfile */,
 				6937B16E27D216CD002C8C05 /* FAQsSupportPrivacy */,
@@ -499,6 +535,23 @@
 			path = ConfirmPassword;
 			sourceTree = "<group>";
 		};
+		ABA5655D6FD54327F236E444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8362F35972FF144DCFB59 /* Pods_TFCC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3932FC33BE52D4E4FB1D503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31379D59F5C82BF184AA932D /* Pods-TFCC.debug.xcconfig */,
+				602B83CAA7E0981288814C0D /* Pods-TFCC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -506,9 +559,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96BEC32027C66D67009A5F5B /* Build configuration list for PBXNativeTarget "TFCC" */;
 			buildPhases = (
+				9B806FB9E6B567DB6B65D857 /* [CP] Check Pods Manifest.lock */,
 				96BEC30827C66D65009A5F5B /* Sources */,
 				96BEC30927C66D65009A5F5B /* Frameworks */,
 				96BEC30A27C66D65009A5F5B /* Resources */,
+				EBEF0BE5D4A59E821F8B8027 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -564,6 +619,7 @@
 				9618726D27CE37DD0063089E /* SignUp3TOSViewController.xib in Resources */,
 				96BEB7D127D6790B00CBA072 /* PatientProfileTableViewCell.xib in Resources */,
 				9618727227CE79EF0063089E /* SignInViewController.xib in Resources */,
+				6953C0C227D7890A007BE4CC /* DateCollectionViewCell.xib in Resources */,
 				69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */,
 				961AF2F527D2407D0096B1C6 /* PhysicianListingTableViewCell.xib in Resources */,
 				96F1F6B627CFE1C7002D8D86 /* ConfirmPasswordViewController.xib in Resources */,
@@ -571,6 +627,7 @@
 				96BEC32727C67352009A5F5B /* WelcomeViewController.xib in Resources */,
 				96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */,
 				96DCB08B27D0DA9700333F16 /* PhysicianListingViewController.xib in Resources */,
+				6953C0C027D7890A007BE4CC /* BookingDateTimeViewController.xib in Resources */,
 				96E7985827CFB156005F00B1 /* ForgotPasswordViewController.xib in Resources */,
 				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
 				69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */,
@@ -584,6 +641,7 @@
 				965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */,
 				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
+				6953C0BE27D7890A007BE4CC /* TimeCollectionViewCell.xib in Resources */,
 				960AB2AB27CD004C00F9B156 /* SignUp2ViewController.xib in Resources */,
 				69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
@@ -595,6 +653,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B806FB9E6B567DB6B65D857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFCC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBEF0BE5D4A59E821F8B8027 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96BEC30827C66D65009A5F5B /* Sources */ = {
@@ -614,6 +714,7 @@
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEB7CB27D647A400CBA072 /* PatientProfileViewModel.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
+				6953C0B527D76FC5007BE4CC /* UIViewController.swift in Sources */,
 				96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */,
 				9618727327CE79EF0063089E /* SignInViewController.swift in Sources */,
 				9618726E27CE37DD0063089E /* SignUp3TOSViewController.swift in Sources */,
@@ -624,9 +725,12 @@
 				961AF2F427D2407D0096B1C6 /* PhysicianListingTableViewCell.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
 				96DCB08A27D0DA9700333F16 /* PhysicianListingViewController.swift in Sources */,
+				6953C0BD27D7890A007BE4CC /* BookingDateTimeViewController.swift in Sources */,
+				6953C0BF27D7890A007BE4CC /* DateCollectionViewCell.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
 				6937B17127D21705002C8C05 /* FAQsSupportPrivacyViewController.swift in Sources */,
 				69A599EF27D08B3600471E7F /* UIView.swift in Sources */,
+				6953C0C127D7890A007BE4CC /* TimeCollectionViewCell.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
 				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
 				960AB2AA27CD004C00F9B156 /* SignUp2ViewController.swift in Sources */,
@@ -772,6 +876,7 @@
 		};
 		96BEC32127C66D67009A5F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31379D59F5C82BF184AA932D /* Pods-TFCC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -799,6 +904,7 @@
 		};
 		96BEC32227C66D67009A5F5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602B83CAA7E0981288814C0D /* Pods-TFCC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
