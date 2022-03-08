@@ -53,13 +53,10 @@ class PhysicianProfileViewController: UIViewController {
 //MARK: - UITableViewDelegate
 extension PhysicianProfileViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 3
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "physicianEducationTableCell", for: indexPath) as! PhysicianEducationTableCell
-        if indexPath.row == 4 {
-            cell.educationLabel.text = "UCL - Cliniques Saint - Luc (1987 -1999)- Docteur UCL - Cliniques Saint - Luc (1987 -1999)- Docteur UCL - Cliniques Saint - Luc (1987 -1999)- Docteur"
-        }
         return cell
     }
 }
