@@ -274,23 +274,23 @@
     </objects>
     <designables>
         <designable name="4Eh-lv-9X2">
-            <size key="intrinsicContentSize" width="187.5" height="45"/>
+            <size key="intrinsicContentSize" width="157.5" height="21"/>
         </designable>
         <designable name="Nfa-sY-Nf6">
-            <size key="intrinsicContentSize" width="69" height="45"/>
+            <size key="intrinsicContentSize" width="39" height="21"/>
         </designable>
         <designable name="Tc9-jd-V3B">
-            <size key="intrinsicContentSize" width="121" height="45"/>
+            <size key="intrinsicContentSize" width="91" height="21"/>
         </designable>
         <designable name="u6v-06-dQz">
-            <size key="intrinsicContentSize" width="98" height="45"/>
+            <size key="intrinsicContentSize" width="68" height="21"/>
         </designable>
     </designables>
     <resources>
         <image name="HeaderBg" width="360" height="168"/>
         <image name="HeaderIcon" width="92" height="92"/>
         <namedColor name="BlackText">
-            <color red="0.019999999552965164" green="0.050999999046325684" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.10999999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BorderGrey">
             <color red="0.72200000286102295" green="0.72200000286102295" blue="0.72200000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

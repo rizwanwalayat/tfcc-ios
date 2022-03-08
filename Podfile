@@ -6,7 +6,8 @@ target 'TFCC' do
   use_frameworks!
 
   # Pods for TFCC
-pod 'Alamofire', '~> 5.5'
+pod 'Alamofire', '~> 4.2'
 pod 'ObjectMapper', '~> 3.5'
+pod 'NVActivityIndicatorView'
 
 end

@@ -10,6 +10,7 @@ import UIKit
 class SignUpViewController: BaseViewController {
 
     @IBOutlet weak var emailTF: RoundTextField!
+    @IBOutlet weak var genderTF: RoundTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +23,9 @@ class SignUpViewController: BaseViewController {
     
     @IBAction func signInBtnAction(_ sender: Any) {
         coordinator?.signInScreen()
+    }
+    @IBAction func genderAction(_ sender: Any) {
+        self.pickerView()
     }
     
 }

@@ -37,5 +37,31 @@ class DataManager {
         return UserDefaults.standard.array(forKey: "NotificationSwitch")
     }
     
+    func saveAuthToken(_ token : String) {
+        
+        UserDefaults.standard.set(token, forKey: "auth_token")
+    }
+    
+//    func getUsersDetail() -> ResultLoginUser? {
+//
+//        var user: ResultLoginUser?
+//
+//        if UserDefaults.standard.object(forKey: "user_complete_detail") != nil {
+//            user = Mapper<ResultLoginUser>().map(JSONString:UserDefaults.standard.string(forKey: "user_complete_detail")!)
+//        }
+//        return user
+//    }
+    
+    func getAuthToken() -> String {
+        
+        if let token = UserDefaults.standard.object(forKey: "auth_token") as? String {
+            return token
+        }
+//        else if let userDetial = self.getUsersDetail() {
+//            return userDetial.auth_token
+//        }
+       
+        return ""
+    }
     
 }

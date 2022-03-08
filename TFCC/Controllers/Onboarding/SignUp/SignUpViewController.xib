@@ -20,6 +20,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="TFCC" customModuleProvider="target">
             <connections>
                 <outlet property="emailTF" destination="4Eh-lv-9X2" id="EKz-mK-8Mj"/>
+                <outlet property="genderTF" destination="3GV-KB-UcR" id="NnU-5o-t5e"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -148,6 +149,9 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="genderAction:" destination="-1" eventType="touchUpInside" id="P6g-1J-fQK"/>
+                                    </connections>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date Of Birth *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pco-p4-Dfl" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="264" width="382" height="50"/>
@@ -259,26 +263,26 @@
     </objects>
     <designables>
         <designable name="3GV-KB-UcR">
-            <size key="intrinsicContentSize" width="92.5" height="45"/>
+            <size key="intrinsicContentSize" width="62.5" height="21"/>
         </designable>
         <designable name="4Eh-lv-9X2">
-            <size key="intrinsicContentSize" width="139" height="45"/>
+            <size key="intrinsicContentSize" width="109" height="21"/>
         </designable>
         <designable name="Pco-p4-Dfl">
-            <size key="intrinsicContentSize" width="134.5" height="45"/>
+            <size key="intrinsicContentSize" width="104.5" height="21"/>
         </designable>
         <designable name="Tc9-jd-V3B">
-            <size key="intrinsicContentSize" width="107.5" height="45"/>
+            <size key="intrinsicContentSize" width="77.5" height="21"/>
         </designable>
         <designable name="u6v-06-dQz">
-            <size key="intrinsicContentSize" width="81.5" height="45"/>
+            <size key="intrinsicContentSize" width="51.5" height="21"/>
         </designable>
     </designables>
     <resources>
         <image name="HeaderBg" width="360" height="168"/>
         <image name="HeaderIcon" width="92" height="92"/>
         <namedColor name="BlackText">
-            <color red="0.019999999552965164" green="0.050999999046325684" blue="0.10199999809265137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.10999999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BorderGrey">
             <color red="0.72200000286102295" green="0.72200000286102295" blue="0.72200000286102295" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

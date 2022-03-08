@@ -101,17 +101,7 @@ class APIClient: APIClientHandler {
         _ = sendRequest(APIRoutes.verify_otp, parameters: params, httpMethod: .post, headers: nil, completionBlock: completionBlock)
     }
     
-    func verifySignupOTPApi(phone: String, code: String, _ completionBlock: @escaping APIClientCompletionHandler){
-        var params = ["phone": phone, "code": code] as [String : Any]
-        
-        if LocationManager.shared.currentLocation != nil {
-            params["latitude"] = LocationManager.shared.currentLocation.latitude
-            params["longitude"] = LocationManager.shared.currentLocation.longitude
-        }
-        let prameter = params as [String: AnyObject]
-        
-        _ = sendRequest(APIRoutes.verifySignupCode, parameters: prameter, httpMethod: .post, headers: nil, completionBlock: completionBlock)
-    }
+    
     
     func createAccount(email: String, password: String, wasteIDs: String, capacity: String, _ completionBlock: @escaping APIClientCompletionHandler)
     {
@@ -191,14 +181,6 @@ class APIClient: APIClientHandler {
         _ = sendRequest(APIRoutes.dispatchesDetail , parameters: params , httpMethod: .post , headers: headers, completionBlock: completionBlock)
     }
 
-    func fetchTwillioAccessToken(_ completionBlock: @escaping APIClientCompletionHandler)
-    {
-        let headers = ["Authorization": "token " + (DataManager.shared.getAuthToken())]
-        
-        let phone = DataManager.shared.getUsersDetail()?.phone ?? ""
-        let url = "carriers/fetch_twilio_access_token/\(phone)"
-        _ = sendRequest(url , parameters: nil ,httpMethod: .get , headers: headers, completionBlock: completionBlock)
-    }
 
     func googleLocationPolyLineAPi( _ completionBlock: @escaping APIClientCompletionHandler) {
         let params = [String:AnyObject]()

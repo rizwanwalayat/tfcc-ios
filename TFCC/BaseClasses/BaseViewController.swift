@@ -102,6 +102,16 @@ open class BaseViewController: UIViewController {
         }
     }
     
+    func pickerView(){
+        let picker = UIPickerView()
+        picker.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(picker)
+        
+        picker.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+        picker.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+        picker.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+    }
+    
     @IBAction func goToPatientProfile(){
         coordinator?.patientProfileScreen()
     }

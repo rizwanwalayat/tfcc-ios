@@ -42,6 +42,9 @@
 		96389FFE27D78B6A0031F277 /* ApiResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96389FFA27D78B690031F277 /* ApiResponseHandler.swift */; };
 		96389FFF27D78B6A0031F277 /* ApiClientHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96389FFB27D78B690031F277 /* ApiClientHandler.swift */; };
 		9638A00027D78B6A0031F277 /* FileTSAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96389FFC27D78B690031F277 /* FileTSAPIClient.swift */; };
+		9638A00427D7A4C70031F277 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638A00227D7A4C70031F277 /* Constants.swift */; };
+		9638A00827D7A8330031F277 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638A00727D7A8330031F277 /* Utility.swift */; };
+		9638A00A27D7AB240031F277 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9638A00927D7AB240031F277 /* UIImage.swift */; };
 		96426B2827C67E470007B579 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1E27C67E460007B579 /* Lato-Thin.ttf */; };
 		96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B1F27C67E460007B579 /* Lato-Regular.ttf */; };
 		96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */; };
@@ -121,6 +124,9 @@
 		96389FFA27D78B690031F277 /* ApiResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponseHandler.swift; sourceTree = "<group>"; };
 		96389FFB27D78B690031F277 /* ApiClientHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClientHandler.swift; sourceTree = "<group>"; };
 		96389FFC27D78B690031F277 /* FileTSAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTSAPIClient.swift; sourceTree = "<group>"; };
+		9638A00227D7A4C70031F277 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9638A00727D7A8330031F277 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		9638A00927D7AB240031F277 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		96426B1E27C67E460007B579 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		96426B1F27C67E460007B579 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		96426B2027C67E460007B579 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
@@ -184,7 +190,6 @@
 				B28837C80F36A5621FF8F544 /* Pods-TFCC.debug.xcconfig */,
 				6556DD76CC361AEA487B22B6 /* Pods-TFCC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -345,6 +350,14 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		9638A00627D7A8330031F277 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9638A00727D7A8330031F277 /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		96426B1C27C67DE80007B579 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +405,7 @@
 		965A8ABF27C9413D007DDE1C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9638A00927D7AB240031F277 /* UIImage.swift */,
 				69A599EE27D08B3600471E7F /* UIView.swift */,
 				96A708A027CCE37700839A2C /* UITextField.swift */,
 				965A8AC027C94154007DDE1C /* UIColorExtensions.swift */,
@@ -459,6 +473,7 @@
 			children = (
 				96389FF827D78B690031F277 /* Network */,
 				69F4D76127C941D500812481 /* Custom */,
+				9638A00627D7A8330031F277 /* Utilities */,
 				965A8ABF27C9413D007DDE1C /* Extensions */,
 				96BEC32827C67722009A5F5B /* BaseClasses */,
 				96BEC32327C672E1009A5F5B /* Controllers */,
@@ -487,6 +502,7 @@
 		96BEC32827C67722009A5F5B /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+				9638A00227D7A4C70031F277 /* Constants.swift */,
 				96B7684427C792D9004372D7 /* BaseViewController.swift */,
 				96BEC32927C67749009A5F5B /* Coordinator.swift */,
 				96BEC32B27C67911009A5F5B /* DataManager.swift */,
@@ -704,6 +720,7 @@
 				96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEB7CB27D647A400CBA072 /* PatientProfileViewModel.swift in Sources */,
+				9638A00827D7A8330031F277 /* Utility.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
 				96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */,
 				9618727327CE79EF0063089E /* SignInViewController.swift in Sources */,
@@ -714,6 +731,7 @@
 				96F1F6B727CFE1C7002D8D86 /* ConfirmPasswordViewController.swift in Sources */,
 				961AF2F427D2407D0096B1C6 /* PhysicianListingTableViewCell.swift in Sources */,
 				965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */,
+				9638A00427D7A4C70031F277 /* Constants.swift in Sources */,
 				96DCB08A27D0DA9700333F16 /* PhysicianListingViewController.swift in Sources */,
 				96389FFF27D78B6A0031F277 /* ApiClientHandler.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
@@ -721,6 +739,7 @@
 				69A599EF27D08B3600471E7F /* UIView.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
 				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
+				9638A00A27D7AB240031F277 /* UIImage.swift in Sources */,
 				960AB2AA27CD004C00F9B156 /* SignUp2ViewController.swift in Sources */,
 				965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,
