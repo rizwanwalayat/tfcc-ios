@@ -252,6 +252,25 @@
 			path = EditPatientProfile;
 			sourceTree = "<group>";
 		};
+		695D528327D8DC4A00BD72E7 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				695D527327D8B79500BD72E7 /* EditPatientProfile */,
+				96BEB7C627D647A400CBA072 /* PatientProfile */,
+				69A599E927D089FE00471E7F /* PatientSubCategory */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		695D528427D8DC7400BD72E7 /* Physician */ = {
+			isa = PBXGroup;
+			children = (
+				69F57E4727D620F4001EB8F9 /* PhysicianProfile */,
+				96DCB07E27D0DA9700333F16 /* PhysicianListing */,
+			);
+			path = Physician;
+			sourceTree = "<group>";
+		};
 		69A599E927D089FE00471E7F /* PatientSubCategory */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,15 +548,12 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				695D527327D8B79500BD72E7 /* EditPatientProfile */,
+				695D528427D8DC7400BD72E7 /* Physician */,
+				695D528327D8DC4A00BD72E7 /* Patient */,
 				6953C0B627D788DD007BE4CC /* BookingDateTime */,
-				96BEB7C627D647A400CBA072 /* PatientProfile */,
-				69F57E4727D620F4001EB8F9 /* PhysicianProfile */,
 				6937B16E27D216CD002C8C05 /* FAQsSupportPrivacy */,
-				96DCB07E27D0DA9700333F16 /* PhysicianListing */,
 				960AB2AC27CD005A00F9B156 /* Onboarding */,
 				69F4D74927C900D300812481 /* SearchSpecialist */,
-				69A599E927D089FE00471E7F /* PatientSubCategory */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
