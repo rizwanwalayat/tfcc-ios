@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B77169BD0C030C1966862A2 /* Pods_TFCC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD8362F35972FF144DCFB59 /* Pods_TFCC.framework */; };
 		6937B17127D21705002C8C05 /* FAQsSupportPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */; };
 		6937B17227D21705002C8C05 /* FAQsSupportPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */; };
 		6937B17627D23262002C8C05 /* FAQsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937B17427D23262002C8C05 /* FAQsTableCell.swift */; };
@@ -88,8 +87,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31379D59F5C82BF184AA932D /* Pods-TFCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFCC.debug.xcconfig"; path = "Target Support Files/Pods-TFCC/Pods-TFCC.debug.xcconfig"; sourceTree = "<group>"; };
-		602B83CAA7E0981288814C0D /* Pods-TFCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFCC.release.xcconfig"; path = "Target Support Files/Pods-TFCC/Pods-TFCC.release.xcconfig"; sourceTree = "<group>"; };
 		6937B16F27D21705002C8C05 /* FAQsSupportPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsSupportPrivacyViewController.swift; sourceTree = "<group>"; };
 		6937B17027D21705002C8C05 /* FAQsSupportPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQsSupportPrivacyViewController.xib; sourceTree = "<group>"; };
 		6937B17427D23262002C8C05 /* FAQsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQsTableCell.swift; sourceTree = "<group>"; };
@@ -169,7 +166,6 @@
 		96E7985B27CFB4A6005F00B1 /* VerificationCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationCodeViewController.xib; sourceTree = "<group>"; };
 		96F1F6B427CFE1C7002D8D86 /* ConfirmPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmPasswordViewController.xib; sourceTree = "<group>"; };
 		96F1F6B527CFE1C7002D8D86 /* ConfirmPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordViewController.swift; sourceTree = "<group>"; };
-		CAD8362F35972FF144DCFB59 /* Pods_TFCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +173,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B77169BD0C030C1966862A2 /* Pods_TFCC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +427,6 @@
 			children = (
 				96BEC30E27C66D65009A5F5B /* TFCC */,
 				96BEC30D27C66D65009A5F5B /* Products */,
-				E3932FC33BE52D4E4FB1D503 /* Pods */,
-				ABA5655D6FD54327F236E444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -535,23 +528,6 @@
 			path = ConfirmPassword;
 			sourceTree = "<group>";
 		};
-		ABA5655D6FD54327F236E444 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CAD8362F35972FF144DCFB59 /* Pods_TFCC.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E3932FC33BE52D4E4FB1D503 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				31379D59F5C82BF184AA932D /* Pods-TFCC.debug.xcconfig */,
-				602B83CAA7E0981288814C0D /* Pods-TFCC.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -559,11 +535,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96BEC32027C66D67009A5F5B /* Build configuration list for PBXNativeTarget "TFCC" */;
 			buildPhases = (
-				9B806FB9E6B567DB6B65D857 /* [CP] Check Pods Manifest.lock */,
 				96BEC30827C66D65009A5F5B /* Sources */,
 				96BEC30927C66D65009A5F5B /* Frameworks */,
 				96BEC30A27C66D65009A5F5B /* Resources */,
-				EBEF0BE5D4A59E821F8B8027 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -653,48 +627,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9B806FB9E6B567DB6B65D857 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TFCC-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBEF0BE5D4A59E821F8B8027 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96BEC30827C66D65009A5F5B /* Sources */ = {
@@ -876,7 +808,6 @@
 		};
 		96BEC32127C66D67009A5F5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31379D59F5C82BF184AA932D /* Pods-TFCC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -904,7 +835,6 @@
 		};
 		96BEC32227C66D67009A5F5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 602B83CAA7E0981288814C0D /* Pods-TFCC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
