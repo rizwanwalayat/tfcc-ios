@@ -14,6 +14,7 @@ var googleAPIKey = "AIzaSyBp9ntlNiyAFvV8qxdXrBvBAOz_xasmvS0"
 var app_name = "CarrierApp"
 var onboardingType = OnboardingType.SignUp
 var defaultSideMenuIndex = 2
+let kGoogleMapsAPI = "AIzaSyBCc-hYeJt9tAVT-uAgp3XhJSi5HBmqd6Y"
 struct APIRoutes {
 //    static var baseUrl = "https://app.enmassenergy.com/" //Live
     static var baseUrl = "https://enmass-cache-programme.appspot.com/" //Stagging

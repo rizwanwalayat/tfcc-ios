@@ -1,5 +1,10 @@
 PODS:
   - Alamofire (4.9.1)
+  - GoogleMaps (6.0.0):
+    - GoogleMaps/Maps (= 6.0.0)
+  - GoogleMaps/Base (6.0.0)
+  - GoogleMaps/Maps (6.0.0):
+    - GoogleMaps/Base
   - NVActivityIndicatorView (5.1.1):
     - NVActivityIndicatorView/Base (= 5.1.1)
   - NVActivityIndicatorView/Base (5.1.1)
@@ -7,20 +12,23 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.2)
+  - GoogleMaps (~> 6.0)
   - NVActivityIndicatorView
   - ObjectMapper (~> 3.5)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - GoogleMaps
     - NVActivityIndicatorView
     - ObjectMapper
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 750f237920fa44dd32de0c0d2004d35cb2c688f3
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
 
-PODFILE CHECKSUM: 51ff1ffd48755027c72bfa6725c4e35f5baaee72
+PODFILE CHECKSUM: 09f80d640631cb594820c45fb3f17527729c8e6b
 
 COCOAPODS: 1.11.2

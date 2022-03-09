@@ -601,6 +601,7 @@
 				96BEC30927C66D65009A5F5B /* Frameworks */,
 				96BEC30A27C66D65009A5F5B /* Resources */,
 				6C114DBF158305A8107238BB /* [CP] Embed Pods Frameworks */,
+				9ACF732AA0999F85BB4AD8FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -729,6 +730,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACF732AA0999F85BB4AD8FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFCC/Pods-TFCC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
