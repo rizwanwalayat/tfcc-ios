@@ -54,5 +54,7 @@ extension PhysicianListingViewController: UITableViewDataSource, UITableViewDele
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        coordinator?.physicianProfileScreen()
+    }
 }
