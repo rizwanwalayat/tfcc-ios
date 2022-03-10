@@ -20,7 +20,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="TFCC" customModuleProvider="target">
             <connections>
                 <outlet property="emailTF" destination="4Eh-lv-9X2" id="EKz-mK-8Mj"/>
-                <outlet property="genderTF" destination="3GV-KB-UcR" id="NnU-5o-t5e"/>
+                <outlet property="genderDropDown" destination="3GV-KB-UcR" id="2l5-2l-TQo"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -131,7 +131,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </textField>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Gender *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3GV-KB-UcR" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Gender *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3GV-KB-UcR" customClass="DropDown" customModule="iOSDropDown">
                                     <rect key="frame" x="0.0" y="198" width="382" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="Zkv-ho-NI7"/>
@@ -149,9 +149,6 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="genderAction:" destination="-1" eventType="touchUpInside" id="P6g-1J-fQK"/>
-                                    </connections>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date Of Birth *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pco-p4-Dfl" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="264" width="382" height="50"/>
@@ -262,9 +259,6 @@
         </view>
     </objects>
     <designables>
-        <designable name="3GV-KB-UcR">
-            <size key="intrinsicContentSize" width="62.5" height="21"/>
-        </designable>
         <designable name="4Eh-lv-9X2">
             <size key="intrinsicContentSize" width="109" height="21"/>
         </designable>

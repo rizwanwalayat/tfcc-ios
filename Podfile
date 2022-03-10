@@ -10,4 +10,5 @@ pod 'Alamofire', '~> 4.2'
 pod 'ObjectMapper', '~> 3.5'
 pod 'NVActivityIndicatorView'
 pod 'GoogleMaps', '~> 6.0'
+pod 'iOSDropDown'
 end

@@ -64,6 +64,7 @@
 		96426B2F27C67E470007B579 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2527C67E470007B579 /* Lato-Light.ttf */; };
 		96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2627C67E470007B579 /* Lato-Bold.ttf */; };
 		96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2727C67E470007B579 /* Lato-LightItalic.ttf */; };
+		96564C1D27D8F65F00B047DC /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96564C1C27D8F65F00B047DC /* iOSDropDown.framework */; };
 		965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */; };
 		965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */; };
 		965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8ABD27C93F21007DDE1C /* RoundTextField.swift */; };
@@ -155,6 +156,7 @@
 		96426B2527C67E470007B579 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		96426B2627C67E470007B579 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		96426B2727C67E470007B579 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		96564C1C27D8F65F00B047DC /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		965A8ABD27C93F21007DDE1C /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96564C1D27D8F65F00B047DC /* iOSDropDown.framework in Frameworks */,
 				67AAE7302CA23713B5BB0749 /* Pods_TFCC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +345,7 @@
 		9063A497CE6A25591B20CD00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96564C1C27D8F65F00B047DC /* iOSDropDown.framework */,
 				359FD8BBFEE3C511F30CF6A5 /* Pods_TFCC.framework */,
 			);
 			name = Frameworks;
