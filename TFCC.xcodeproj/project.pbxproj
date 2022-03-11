@@ -65,6 +65,13 @@
 		96426B3027C67E470007B579 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2627C67E470007B579 /* Lato-Bold.ttf */; };
 		96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96426B2727C67E470007B579 /* Lato-LightItalic.ttf */; };
 		96564C1D27D8F65F00B047DC /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96564C1C27D8F65F00B047DC /* iOSDropDown.framework */; };
+		96564C2C27DA527900B047DC /* CalenderPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96564C2A27DA527900B047DC /* CalenderPopUpViewController.swift */; };
+		96564C2D27DA527900B047DC /* CalenderPopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96564C2B27DA527900B047DC /* CalenderPopUpViewController.xib */; };
+		96564C2F27DA56EC00B047DC /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96564C2E27DA56EC00B047DC /* Date.swift */; };
+		96564C3627DA577E00B047DC /* DropDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96564C3127DA577E00B047DC /* DropDownViewController.xib */; };
+		96564C3727DA577E00B047DC /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96564C3227DA577E00B047DC /* DropDownViewController.swift */; };
+		96564C3827DA577E00B047DC /* DropdownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96564C3427DA577E00B047DC /* DropdownTableViewCell.xib */; };
+		96564C3927DA577E00B047DC /* DropdownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96564C3527DA577E00B047DC /* DropdownTableViewCell.swift */; };
 		965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */; };
 		965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */; };
 		965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8ABD27C93F21007DDE1C /* RoundTextField.swift */; };
@@ -157,6 +164,13 @@
 		96426B2627C67E470007B579 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		96426B2727C67E470007B579 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		96564C1C27D8F65F00B047DC /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96564C2A27DA527900B047DC /* CalenderPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderPopUpViewController.swift; sourceTree = "<group>"; };
+		96564C2B27DA527900B047DC /* CalenderPopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalenderPopUpViewController.xib; sourceTree = "<group>"; };
+		96564C2E27DA56EC00B047DC /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		96564C3127DA577E00B047DC /* DropDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownViewController.xib; sourceTree = "<group>"; };
+		96564C3227DA577E00B047DC /* DropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
+		96564C3427DA577E00B047DC /* DropdownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropdownTableViewCell.xib; sourceTree = "<group>"; };
+		96564C3527DA577E00B047DC /* DropdownTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownTableViewCell.swift; sourceTree = "<group>"; };
 		965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		965A8ABD27C93F21007DDE1C /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
@@ -317,6 +331,7 @@
 		69F4D76127C941D500812481 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				96564C2527DA4FAC00B047DC /* CalenderPopupView */,
 				69F4D76227C9420F00812481 /* LastRowCenteredLayout.swift */,
 				69983EF127D246050021F002 /* CustomTextField.swift */,
 			);
@@ -456,6 +471,34 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
+		96564C2527DA4FAC00B047DC /* CalenderPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				96564C2A27DA527900B047DC /* CalenderPopUpViewController.swift */,
+				96564C2B27DA527900B047DC /* CalenderPopUpViewController.xib */,
+			);
+			path = CalenderPopupView;
+			sourceTree = "<group>";
+		};
+		96564C3027DA577E00B047DC /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				96564C3127DA577E00B047DC /* DropDownViewController.xib */,
+				96564C3227DA577E00B047DC /* DropDownViewController.swift */,
+				96564C3327DA577E00B047DC /* DropdownCell */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		96564C3327DA577E00B047DC /* DropdownCell */ = {
+			isa = PBXGroup;
+			children = (
+				96564C3427DA577E00B047DC /* DropdownTableViewCell.xib */,
+				96564C3527DA577E00B047DC /* DropdownTableViewCell.swift */,
+			);
+			path = DropdownCell;
+			sourceTree = "<group>";
+		};
 		965A8AB827C93BE7007DDE1C /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +516,7 @@
 				96A708A027CCE37700839A2C /* UITextField.swift */,
 				965A8AC027C94154007DDE1C /* UIColorExtensions.swift */,
 				6953C0B427D76FC5007BE4CC /* UIViewController.swift */,
+				96564C2E27DA56EC00B047DC /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -552,6 +596,7 @@
 		96BEC32327C672E1009A5F5B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				96564C3027DA577E00B047DC /* DropDown */,
 				695D528427D8DC7400BD72E7 /* Physician */,
 				695D528327D8DC4A00BD72E7 /* Patient */,
 				6953C0B627D788DD007BE4CC /* BookingDateTime */,
@@ -685,6 +730,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */,
+				96564C2D27DA527900B047DC /* CalenderPopUpViewController.xib in Resources */,
 				96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */,
 				96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */,
 				96E7985D27CFB4A6005F00B1 /* VerificationCodeViewController.xib in Resources */,
@@ -714,6 +760,8 @@
 				965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */,
 				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
+				96564C3627DA577E00B047DC /* DropDownViewController.xib in Resources */,
+				96564C3827DA577E00B047DC /* DropdownTableViewCell.xib in Resources */,
 				6953C0BE27D7890A007BE4CC /* TimeCollectionViewCell.xib in Resources */,
 				960AB2AB27CD004C00F9B156 /* SignUp2ViewController.xib in Resources */,
 				69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */,
@@ -806,6 +854,7 @@
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEB7CB27D647A400CBA072 /* PatientProfileViewModel.swift in Sources */,
 				9638A00827D7A8330031F277 /* Utility.swift in Sources */,
+				96564C3727DA577E00B047DC /* DropDownViewController.swift in Sources */,
 				96BEC32A27C67749009A5F5B /* Coordinator.swift in Sources */,
 				6953C0B527D76FC5007BE4CC /* UIViewController.swift in Sources */,
 				96E7985727CFB156005F00B1 /* ForgotPasswordViewController.swift in Sources */,
@@ -824,11 +873,14 @@
 				96389FFF27D78B6A0031F277 /* ApiClientHandler.swift in Sources */,
 				96BEC31027C66D65009A5F5B /* AppDelegate.swift in Sources */,
 				6937B17127D21705002C8C05 /* FAQsSupportPrivacyViewController.swift in Sources */,
+				96564C3927DA577E00B047DC /* DropdownTableViewCell.swift in Sources */,
 				69A599EF27D08B3600471E7F /* UIView.swift in Sources */,
 				6953C0C127D7890A007BE4CC /* TimeCollectionViewCell.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
+				96564C2C27DA527900B047DC /* CalenderPopUpViewController.swift in Sources */,
 				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
 				9638A00A27D7AB240031F277 /* UIImage.swift in Sources */,
+				96564C2F27DA56EC00B047DC /* Date.swift in Sources */,
 				960AB2AA27CD004C00F9B156 /* SignUp2ViewController.swift in Sources */,
 				965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,

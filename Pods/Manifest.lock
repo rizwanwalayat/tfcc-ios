@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - FSCalendar (2.8.2)
   - GoogleMaps (6.0.0):
     - GoogleMaps/Maps (= 6.0.0)
   - GoogleMaps/Base (6.0.0)
@@ -13,6 +14,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.2)
+  - FSCalendar
   - GoogleMaps (~> 6.0)
   - iOSDropDown
   - NVActivityIndicatorView
@@ -21,6 +23,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FSCalendar
     - GoogleMaps
     - iOSDropDown
     - NVActivityIndicatorView
@@ -28,11 +31,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   GoogleMaps: 750f237920fa44dd32de0c0d2004d35cb2c688f3
   iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
 
-PODFILE CHECKSUM: b03f45d932b47e0801d23b9e730828fb3a1c96eb
+PODFILE CHECKSUM: e55ab17d136edbf1168104f396be85dd1661433f
 
 COCOAPODS: 1.11.2

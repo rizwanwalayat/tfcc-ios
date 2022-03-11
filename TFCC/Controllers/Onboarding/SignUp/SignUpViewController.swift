@@ -20,6 +20,7 @@ class SignUpViewController: BaseViewController {
     }
 
     func setupDropDowns(){
+        genderDropDown.setLeftPaddingPoints(15)
         genderDropDown.optionArray = ["Male", "Female"]
         genderDropDown.optionIds = [1, 2]
         genderDropDown.didSelect{(selectedText , index ,id) in
