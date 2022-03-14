@@ -27,6 +27,12 @@ extension String {
             return false
         }
     }
+    
+    func isStrongPassword() -> Bool {
+        let passwordRegex = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[d$@$!%*?&#])[A-Za-z\\dd$@$!%*?&#]{8,}"
+            return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
+    }
+
     var containsWhitespace : Bool {
             return(self.rangeOfCharacter(from: .whitespacesAndNewlines) != nil)
         }

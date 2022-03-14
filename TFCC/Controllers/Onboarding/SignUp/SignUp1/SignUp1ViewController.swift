@@ -8,12 +8,20 @@
 import UIKit
 import iOSDropDown
 
-class SignUpViewController: BaseViewController {
+class SignUp1ViewController: BaseViewController {
     
 
-    @IBOutlet weak var genderDropDown: DropDown!
+    
     @IBOutlet weak var emailTF: RoundTextField!
+    @IBOutlet weak var passwordTF: RoundTextField!
+    @IBOutlet weak var phoneTF: RoundTextField!
+    @IBOutlet weak var nameTF: RoundTextField!
+    @IBOutlet weak var genderDropDown: DropDown!
     @IBOutlet weak var dobTF: RoundTextField!
+    @IBOutlet weak var nextBtn: UIButton!
+    var btnEnabled: Bool = false
+    
+    var viewModel: SignUpVM?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +38,11 @@ class SignUpViewController: BaseViewController {
         }
     }
     @IBAction func nextBtnAction(_ sender: Any) {
-        coordinator?.signUp2Screen()
+        if btnEnabled {
+            coordinator?.signUp2Screen()
+        } else {
+            showToast(message: "Please fill all the fields properly")
+        }
     }
     
     @IBAction func signInBtnAction(_ sender: Any) {
@@ -46,10 +58,23 @@ class SignUpViewController: BaseViewController {
     
 }
 
-extension SignUpViewController: GetCalenderDetailsPopUp {
+extension SignUp1ViewController: GetCalenderDetailsPopUp {
     func date(date: Date) {
-        dobTF.text = date.dateToString("MMM dd yyyy")
+        dobTF.text = date.dateToString("MM-dd-yyyy")
         
     }
 
+}
+
+extension SignUp1ViewController: UITextFieldDelegate {
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        if emailTF.text?.isValidEmail() ?? false && passwordTF.text?.isStrongPassword() ?? false && phoneTF.text?.isPhoneNumber ?? false && nameTF.hasText && genderDropDown.hasText && dobTF.hasText {
+            print("btn enabled")
+            btnEnabled = true
+        }
+        else {
+            btnEnabled = false
+        }
+    }
 }

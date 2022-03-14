@@ -80,8 +80,8 @@
 		96564C3727DA577E00B047DC /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96564C3227DA577E00B047DC /* DropDownViewController.swift */; };
 		96564C3827DA577E00B047DC /* DropdownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96564C3427DA577E00B047DC /* DropdownTableViewCell.xib */; };
 		96564C3927DA577E00B047DC /* DropdownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96564C3527DA577E00B047DC /* DropdownTableViewCell.swift */; };
-		965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */; };
-		965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */; };
+		965A8ABB27C93BE7007DDE1C /* SignUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AB927C93BE7007DDE1C /* SignUp1ViewController.swift */; };
+		965A8ABC27C93BE7007DDE1C /* SignUp1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965A8ABA27C93BE7007DDE1C /* SignUp1ViewController.xib */; };
 		965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8ABD27C93F21007DDE1C /* RoundTextField.swift */; };
 		965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AC027C94154007DDE1C /* UIColorExtensions.swift */; };
 		968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */; };
@@ -90,7 +90,7 @@
 		96A7089F27CCE16300839A2C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BEC32B27C67911009A5F5B /* DataManager.swift */; };
 		96A708A127CCE37700839A2C /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A708A027CCE37700839A2C /* UITextField.swift */; };
 		96A71E7727DB9A4200EB9832 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A71E7627DB9A4200EB9832 /* String.swift */; };
-		96A71E7A27DB9E7800EB9832 /* SignupCompleteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A71E7927DB9E7800EB9832 /* SignupCompleteVM.swift */; };
+		96A71E7A27DB9E7800EB9832 /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A71E7927DB9E7800EB9832 /* SignUpVM.swift */; };
 		96A71E7E27DB9EBA00EB9832 /* SignupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A71E7D27DB9EBA00EB9832 /* SignupDataModel.swift */; };
 		96B7684527C792D9004372D7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684427C792D9004372D7 /* BaseViewController.swift */; };
 		96B7684727C793A3004372D7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7684627C793A3004372D7 /* Global.swift */; };
@@ -190,8 +190,8 @@
 		96564C3227DA577E00B047DC /* DropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
 		96564C3427DA577E00B047DC /* DropdownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropdownTableViewCell.xib; sourceTree = "<group>"; };
 		96564C3527DA577E00B047DC /* DropdownTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownTableViewCell.swift; sourceTree = "<group>"; };
-		965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		965A8AB927C93BE7007DDE1C /* SignUp1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp1ViewController.swift; sourceTree = "<group>"; };
+		965A8ABA27C93BE7007DDE1C /* SignUp1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUp1ViewController.xib; sourceTree = "<group>"; };
 		965A8ABD27C93F21007DDE1C /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		965A8AC027C94154007DDE1C /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSignUpViewController.swift; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		968B162927C90C6100B01E83 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		96A708A027CCE37700839A2C /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		96A71E7627DB9A4200EB9832 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		96A71E7927DB9E7800EB9832 /* SignupCompleteVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupCompleteVM.swift; sourceTree = "<group>"; };
+		96A71E7927DB9E7800EB9832 /* SignUpVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
 		96A71E7D27DB9EBA00EB9832 /* SignupDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupDataModel.swift; sourceTree = "<group>"; };
 		96B7684427C792D9004372D7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		96B7684627C793A3004372D7 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
@@ -424,13 +424,11 @@
 		960AB2AC27CD005A00F9B156 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				96ECE19527DF327F00AAA619 /* SignUp */,
 				96F1F6B327CFE1C7002D8D86 /* ConfirmPassword */,
 				96E7985927CFB4A6005F00B1 /* VerificationCode */,
 				96E7985427CFB156005F00B1 /* ForgotPassword */,
 				9618726F27CE79EF0063089E /* SignIn */,
-				9618726A27CE37DD0063089E /* SignUp3TOS */,
-				960AB2A727CD004C00F9B156 /* SignUp2 */,
-				965A8AB827C93BE7007DDE1C /* SignUp */,
 				968B162427C8E76400B01E83 /* WelcomeSignUp */,
 				96426B3227C681BF0007B579 /* Welcome */,
 			);
@@ -545,14 +543,13 @@
 			path = DropdownCell;
 			sourceTree = "<group>";
 		};
-		965A8AB827C93BE7007DDE1C /* SignUp */ = {
+		965A8AB827C93BE7007DDE1C /* SignUp1 */ = {
 			isa = PBXGroup;
 			children = (
-				96A71E7827DB9E7800EB9832 /* ViewModel */,
-				965A8AB927C93BE7007DDE1C /* SignUpViewController.swift */,
-				965A8ABA27C93BE7007DDE1C /* SignUpViewController.xib */,
+				965A8AB927C93BE7007DDE1C /* SignUp1ViewController.swift */,
+				965A8ABA27C93BE7007DDE1C /* SignUp1ViewController.xib */,
 			);
-			path = SignUp;
+			path = SignUp1;
 			sourceTree = "<group>";
 		};
 		965A8ABF27C9413D007DDE1C /* Extensions */ = {
@@ -581,7 +578,7 @@
 		96A71E7827DB9E7800EB9832 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				96A71E7927DB9E7800EB9832 /* SignupCompleteVM.swift */,
+				96A71E7927DB9E7800EB9832 /* SignUpVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -732,6 +729,17 @@
 			path = VerificationCode;
 			sourceTree = "<group>";
 		};
+		96ECE19527DF327F00AAA619 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				96A71E7827DB9E7800EB9832 /* ViewModel */,
+				965A8AB827C93BE7007DDE1C /* SignUp1 */,
+				960AB2A727CD004C00F9B156 /* SignUp2 */,
+				9618726A27CE37DD0063089E /* SignUp3TOS */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		96F1F6B327CFE1C7002D8D86 /* ConfirmPassword */ = {
 			isa = PBXGroup;
 			children = (
@@ -832,7 +840,7 @@
 				96BEB7CC27D647A400CBA072 /* PatientProfileViewController.xib in Resources */,
 				96426B2C27C67E470007B579 /* Lato-BlackItalic.ttf in Resources */,
 				96BEC31927C66D67009A5F5B /* Assets.xcassets in Resources */,
-				965A8ABC27C93BE7007DDE1C /* SignUpViewController.xib in Resources */,
+				965A8ABC27C93BE7007DDE1C /* SignUp1ViewController.xib in Resources */,
 				968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */,
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
 				96564C3627DA577E00B047DC /* DropDownViewController.xib in Resources */,
@@ -932,7 +940,7 @@
 				96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				96BEB7CB27D647A400CBA072 /* PatientProfileViewModel.swift in Sources */,
-				96A71E7A27DB9E7800EB9832 /* SignupCompleteVM.swift in Sources */,
+				96A71E7A27DB9E7800EB9832 /* SignUpVM.swift in Sources */,
 				9638A00827D7A8330031F277 /* Utility.swift in Sources */,
 				96564C3727DA577E00B047DC /* DropDownViewController.swift in Sources */,
 				695D529327DB350400BD72E7 /* AppointmentDetailCell.swift in Sources */,
@@ -965,7 +973,7 @@
 				9638A00A27D7AB240031F277 /* UIImage.swift in Sources */,
 				96564C2F27DA56EC00B047DC /* Date.swift in Sources */,
 				960AB2AA27CD004C00F9B156 /* SignUp2ViewController.swift in Sources */,
-				965A8ABB27C93BE7007DDE1C /* SignUpViewController.swift in Sources */,
+				965A8ABB27C93BE7007DDE1C /* SignUp1ViewController.swift in Sources */,
 				96B7684727C793A3004372D7 /* Global.swift in Sources */,
 				96389FFE27D78B6A0031F277 /* ApiResponseHandler.swift in Sources */,
 				695D528D27D8EE6900BD72E7 /* AppointmentTimeTableCell.swift in Sources */,

@@ -18,11 +18,15 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="TFCC" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUp1ViewController" customModule="TFCC" customModuleProvider="target">
             <connections>
                 <outlet property="dobTF" destination="Pco-p4-Dfl" id="zeC-I3-t2j"/>
                 <outlet property="emailTF" destination="4Eh-lv-9X2" id="EKz-mK-8Mj"/>
                 <outlet property="genderDropDown" destination="3GV-KB-UcR" id="2l5-2l-TQo"/>
+                <outlet property="nameTF" destination="u6v-06-dQz" id="oIM-li-oue"/>
+                <outlet property="nextBtn" destination="sbH-BP-0Ub" id="tH3-XV-rDl"/>
+                <outlet property="passwordTF" destination="Tc9-jd-V3B" id="xNg-R4-kht"/>
+                <outlet property="phoneTF" destination="BBa-BW-K2B" id="XNG-la-mL6"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -80,7 +84,7 @@
                                     </constraints>
                                     <color key="textColor" name="BlackText"/>
                                     <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
-                                    <textInputTraits key="textInputTraits" textContentType="email"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                             <color key="value" name="BorderGrey"/>
@@ -115,6 +119,9 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="Lc5-Mx-DVo"/>
+                                    </connections>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone Number *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BBa-BW-K2B" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="132" width="382" height="50"/>
@@ -123,7 +130,7 @@
                                     </constraints>
                                     <color key="textColor" name="BlackText"/>
                                     <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
-                                    <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                             <color key="value" name="BorderGrey"/>
@@ -135,6 +142,9 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="W1f-ZL-qe6"/>
+                                    </connections>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6v-06-dQz" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="198" width="382" height="50"/>
@@ -155,6 +165,9 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="8hU-Rn-DQe"/>
+                                    </connections>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Gender *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3GV-KB-UcR" customClass="DropDown" customModule="iOSDropDown">
                                     <rect key="frame" x="0.0" y="264" width="382" height="50"/>
@@ -176,6 +189,9 @@
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="boolean" keyPath="handleKeyboard" value="YES"/>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="NSJ-k1-nHq"/>
+                                    </connections>
                                 </textField>
                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date Of Birth *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pco-p4-Dfl" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="330" width="382" height="50"/>
@@ -198,6 +214,8 @@
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="dobPressed:" destination="-1" eventType="touchDown" id="ijD-Od-FFl"/>
+                                        <action selector="editingChanged:" destination="-1" eventType="editingChanged" id="er3-kG-Oj7"/>
+                                        <outlet property="delegate" destination="-1" id="sYG-Iv-ITW"/>
                                     </connections>
                                 </textField>
                             </subviews>

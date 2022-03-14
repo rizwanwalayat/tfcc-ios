@@ -35,7 +35,8 @@ class MainCoordinator: Coordinator {
     }
     
     func signUpScreen() {
-        let vc = SignUpViewController()
+        let vc = SignUp1ViewController()
+        vc.viewModel
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }

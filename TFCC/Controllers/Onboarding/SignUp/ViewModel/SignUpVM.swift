@@ -8,18 +8,23 @@
 import ObjectMapper
 import Foundation
 
-typealias SignupCompleteCompletionHandler = (_ result: SignUpDataModel?, _ error: Error?, _ status: Bool?, _ message: String?) -> ()
+typealias SignUpCompletionHandler = (_ result: SignUpDataModel?, _ error: Error?, _ status: Bool?, _ message: String?) -> ()
 
 
-class SignupCompleteVM: NSObject {
+class SignUpVM: NSObject {
     
-    var data : SignUpDataModel?
+    var data = [String:String]()
+    static let shared = SignUpVM()
     
-    init(responseData : SignUpDataModel) {
-        data = responseData
+//    init(responseData : SignUpDataModel) {
+//        data = responseData
+//    }
+    
+    func signUp1Values(){
+        
     }
     
-    func createAccount(email: String, password: String, wasteIDs: String, capacity: String, _ completion: @escaping SignupCompleteCompletionHandler) {
+    func createAccount(email: String, password: String, wasteIDs: String, capacity: String, _ completion: @escaping SignUpCompletionHandler) {
         Utility.showLoading()
         
         APIClient.shared.createAccount(email: email, password: password, wasteIDs: wasteIDs, capacity: capacity) { result, error, status, message in

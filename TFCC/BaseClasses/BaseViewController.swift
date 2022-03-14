@@ -135,8 +135,8 @@ open class BaseViewController: UIViewController {
     
     func showToast(message : String, _ position: Double = ScreenSize.SCREEN_HEIGHT, _ lines:Double = 40) {
         let toastLabel = UILabel(frame: CGRect(x:ScreenSize.SCREEN_WIDTH/6 , y:position-100, width: ScreenSize.SCREEN_WIDTH/1.5, height: lines))
-        toastLabel.backgroundColor =  .black
-        toastLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        toastLabel.backgroundColor =  UIColor.appColor
+        toastLabel.textColor = .white
         var font = UIFont()
         if let tempFont = UIFont(name: "Poppins-Regular", size: 12)
         {
