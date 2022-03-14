@@ -40,12 +40,12 @@ extension PatientAppointmentDetailsViewController: UITextViewDelegate {
         detailsTextView.textColor = UIColor.darkBlueText
     }
     
-    func textViewDidEndEditing(_ textView: UITextView) {
-        if detailsTextView.text.isReallyEmpty {
-            detailsTextView.text = "type_message".localized
-            detailsTextView.textColor = UIColor.grayBorder
-        } else {
-            detailsTextView.textColor = UIColor.darkBlueText
-        }
-    }
+//    func textViewDidEndEditing(_ textView: UITextView) {
+//        if detailsTextView.text.isReallyEmpty {
+//            detailsTextView.text = "type_message".localized
+//            detailsTextView.textColor = UIColor.grayBorder
+//        } else {
+//            detailsTextView.textColor = UIColor.darkBlueText
+//        }
+//    }
 }
