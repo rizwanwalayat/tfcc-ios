@@ -135,16 +135,16 @@ struct NetworkingConnection {
         })
     }
     
-//    @objc class func showLoading(offSet: CGFloat = 0, isVisible: Bool = true) {
+    @objc class func showLoading(offSet: CGFloat = 0, isVisible: Bool = true) {
 //        LoaderAnimation.shared.playAnimation()
-//
-//    }
+
+    }
 
     
-//    @objc class func hideLoading() {
+    @objc class func hideLoading() {
 //        LoaderAnimation.shared.stopAnimation()
-//    }
-//
+    }
+
     class func simpleDate (date : Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"

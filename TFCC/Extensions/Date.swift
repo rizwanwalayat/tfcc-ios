@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 extension Date {
 //    var iso8601withFractionalSeconds: String { return Formatter.iso8601withFractionalSeconds.string(from: self) }
 
@@ -37,3 +38,15 @@ extension Date {
         return Calendar.current.date(byAdding: .month, value: -1, to: self)
     }
 }
+
+extension Date {
+     
+    public func addMinute(_ minute: Int) -> Date? {
+        var comps = DateComponents()
+        comps.minute = minute
+        let calendar = Calendar.current
+        let result = calendar.date(byAdding: comps, to: self)
+        return result ?? nil
+    }
+
+ }
