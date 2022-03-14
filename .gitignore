@@ -4,3 +4,4 @@ TFCC.xcodeproj/xcuserdata/asadmehmood.xcuserdatad/xcschemes/xcschememanagement.p
 TFCC.xcodeproj/xcuserdata/asadmehmood.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 Podfile.lock
 Pods
+*.xcbkptlist

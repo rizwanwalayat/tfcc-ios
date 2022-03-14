@@ -34,6 +34,9 @@ extension String {
     }
 
     var containsWhitespace : Bool {
-            return(self.rangeOfCharacter(from: .whitespacesAndNewlines) != nil)
-        }
+        return(self.rangeOfCharacter(from: .whitespacesAndNewlines) != nil)
+    }
+    var isReallyEmpty: Bool {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
 }

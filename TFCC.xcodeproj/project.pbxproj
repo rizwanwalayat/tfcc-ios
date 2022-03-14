@@ -29,6 +29,13 @@
 		695D529427DB350400BD72E7 /* AppointmentDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695D529227DB350400BD72E7 /* AppointmentDetailCell.xib */; };
 		695D529727DB392200BD72E7 /* MedicalRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D529527DB392200BD72E7 /* MedicalRecordCell.swift */; };
 		695D529827DB392200BD72E7 /* MedicalRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695D529627DB392200BD72E7 /* MedicalRecordCell.xib */; };
+		695D529C27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D529A27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.swift */; };
+		695D529D27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695D529B27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.xib */; };
+		695D529F27DF29DE00BD72E7 /* StringLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D529E27DF29DE00BD72E7 /* StringLiterals.swift */; };
+		695D52A327DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D52A127DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.swift */; };
+		695D52A427DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695D52A227DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.xib */; };
+		695D52A827DF4F0300BD72E7 /* AppointmentsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695D52A627DF4F0300BD72E7 /* AppointmentsTableCell.swift */; };
+		695D52A927DF4F0300BD72E7 /* AppointmentsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695D52A727DF4F0300BD72E7 /* AppointmentsTableCell.xib */; };
 		69983EF227D246050021F002 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69983EF127D246050021F002 /* CustomTextField.swift */; };
 		69A599EC27D08A3B00471E7F /* PatientSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */; };
 		69A599ED27D08A3B00471E7F /* PatientSubCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */; };
@@ -139,6 +146,13 @@
 		695D529227DB350400BD72E7 /* AppointmentDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentDetailCell.xib; sourceTree = "<group>"; };
 		695D529527DB392200BD72E7 /* MedicalRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordCell.swift; sourceTree = "<group>"; };
 		695D529627DB392200BD72E7 /* MedicalRecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicalRecordCell.xib; sourceTree = "<group>"; };
+		695D529A27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAppointmentDetailsViewController.swift; sourceTree = "<group>"; };
+		695D529B27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientAppointmentDetailsViewController.xib; sourceTree = "<group>"; };
+		695D529E27DF29DE00BD72E7 /* StringLiterals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiterals.swift; sourceTree = "<group>"; };
+		695D52A127DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientUpcomingPastAppointmentViewController.swift; sourceTree = "<group>"; };
+		695D52A227DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientUpcomingPastAppointmentViewController.xib; sourceTree = "<group>"; };
+		695D52A627DF4F0300BD72E7 /* AppointmentsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsTableCell.swift; sourceTree = "<group>"; };
+		695D52A727DF4F0300BD72E7 /* AppointmentsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentsTableCell.xib; sourceTree = "<group>"; };
 		69983EF127D246050021F002 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		69A599EA27D08A3B00471E7F /* PatientSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSubCategoryViewController.swift; sourceTree = "<group>"; };
 		69A599EB27D08A3B00471E7F /* PatientSubCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientSubCategoryViewController.xib; sourceTree = "<group>"; };
@@ -294,6 +308,8 @@
 		695D528327D8DC4A00BD72E7 /* Patient */ = {
 			isa = PBXGroup;
 			children = (
+				695D52A027DF355000BD72E7 /* UpcomingPastAppointments */,
+				695D529927DB548100BD72E7 /* AppointmentDetails */,
 				695D528527D8DCF800BD72E7 /* PastAppointmentDetail */,
 				695D527327D8B79500BD72E7 /* EditPatientProfile */,
 				96BEB7C627D647A400CBA072 /* PatientProfile */,
@@ -332,6 +348,34 @@
 				695D529627DB392200BD72E7 /* MedicalRecordCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		695D529927DB548100BD72E7 /* AppointmentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				695D529A27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.swift */,
+				695D529B27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.xib */,
+			);
+			path = AppointmentDetails;
+			sourceTree = "<group>";
+		};
+		695D52A027DF355000BD72E7 /* UpcomingPastAppointments */ = {
+			isa = PBXGroup;
+			children = (
+				695D52A527DF4ED700BD72E7 /* Cell */,
+				695D52A127DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.swift */,
+				695D52A227DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.xib */,
+			);
+			path = UpcomingPastAppointments;
+			sourceTree = "<group>";
+		};
+		695D52A527DF4ED700BD72E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				695D52A627DF4F0300BD72E7 /* AppointmentsTableCell.swift */,
+				695D52A727DF4F0300BD72E7 /* AppointmentsTableCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		69A599E927D089FE00471E7F /* PatientSubCategory */ = {
@@ -687,6 +731,7 @@
 				96B7684627C793A3004372D7 /* Global.swift */,
 				968B162927C90C6100B01E83 /* RoundButton.swift */,
 				965A8ABD27C93F21007DDE1C /* RoundTextField.swift */,
+				695D529E27DF29DE00BD72E7 /* StringLiterals.swift */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -830,6 +875,7 @@
 				6953C0C027D7890A007BE4CC /* BookingDateTimeViewController.xib in Resources */,
 				695D529427DB350400BD72E7 /* AppointmentDetailCell.xib in Resources */,
 				96E7985827CFB156005F00B1 /* ForgotPasswordViewController.xib in Resources */,
+				695D52A927DF4F0300BD72E7 /* AppointmentsTableCell.xib in Resources */,
 				96426B2E27C67E470007B579 /* Lato-BoldItalic.ttf in Resources */,
 				69F4D75C27C918F200812481 /* BannerCollectionCell.xib in Resources */,
 				69F57E4B27D6211C001EB8F9 /* PhysicianProfileViewController.xib in Resources */,
@@ -845,12 +891,14 @@
 				96426B2B27C67E470007B579 /* Lato-Italic.ttf in Resources */,
 				96564C3627DA577E00B047DC /* DropDownViewController.xib in Resources */,
 				96564C3827DA577E00B047DC /* DropdownTableViewCell.xib in Resources */,
+				695D52A427DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.xib in Resources */,
 				6953C0BE27D7890A007BE4CC /* TimeCollectionViewCell.xib in Resources */,
 				960AB2AB27CD004C00F9B156 /* SignUp2ViewController.xib in Resources */,
 				695D529827DB392200BD72E7 /* MedicalRecordCell.xib in Resources */,
 				69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */,
 				96426B2D27C67E470007B579 /* Lato-Black.ttf in Resources */,
 				695D528E27D8EE6900BD72E7 /* AppointmentTimeTableCell.xib in Resources */,
+				695D529D27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.xib in Resources */,
 				69F57E5027D62811001EB8F9 /* PhysicianEducationTableCell.xib in Resources */,
 				6937B17227D21705002C8C05 /* FAQsSupportPrivacyViewController.xib in Resources */,
 				96426B3127C67E470007B579 /* Lato-LightItalic.ttf in Resources */,
@@ -927,9 +975,11 @@
 				69A599F327D0DFF900471E7F /* CollectionViewHeaderLine.swift in Sources */,
 				96A7089F27CCE16300839A2C /* DataManager.swift in Sources */,
 				695D528827D8DD3D00BD72E7 /* PatientPastAppointmentDetailViewController.swift in Sources */,
+				695D529F27DF29DE00BD72E7 /* StringLiterals.swift in Sources */,
 				69F4D76327C9420F00812481 /* LastRowCenteredLayout.swift in Sources */,
 				69F4D75F27C9342C00812481 /* CategoriesCollectionCell.swift in Sources */,
 				961AF2F827D257D80096B1C6 /* PhysicianListingViewModel.swift in Sources */,
+				695D52A827DF4F0300BD72E7 /* AppointmentsTableCell.swift in Sources */,
 				96389FFD27D78B690031F277 /* ApiClient.swift in Sources */,
 				96A71E7727DB9A4200EB9832 /* String.swift in Sources */,
 				968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */,
@@ -939,6 +989,7 @@
 				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,
 				96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
+				695D52A327DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.swift in Sources */,
 				96BEB7CB27D647A400CBA072 /* PatientProfileViewModel.swift in Sources */,
 				96A71E7A27DB9E7800EB9832 /* SignUpVM.swift in Sources */,
 				9638A00827D7A8330031F277 /* Utility.swift in Sources */,
@@ -980,6 +1031,7 @@
 				96A708A127CCE37700839A2C /* UITextField.swift in Sources */,
 				96BEB7CD27D647A400CBA072 /* PatientProfileViewController.swift in Sources */,
 				695D527627D8B7B000BD72E7 /* EditPatientProfileViewController.swift in Sources */,
+				695D529C27DB54B500BD72E7 /* PatientAppointmentDetailsViewController.swift in Sources */,
 				968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */,
 				96BEB7D227D6790B00CBA072 /* PatientProfileTableViewCell.swift in Sources */,
 				69F57E4F27D62811001EB8F9 /* PhysicianEducationTableCell.swift in Sources */,
