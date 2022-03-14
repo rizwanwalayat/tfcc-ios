@@ -126,4 +126,9 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
+    func patientAppointmentScreen() {
+        let vc = PatientAppointmentDetailsViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
 }
