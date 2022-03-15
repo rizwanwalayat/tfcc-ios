@@ -134,7 +134,7 @@ open class BaseViewController: UIViewController {
 //    }
     
     func showToast(message : String, _ position: Double = ScreenSize.SCREEN_HEIGHT, _ lines:Double = 40) {
-        let toastLabel = UILabel(frame: CGRect(x:ScreenSize.SCREEN_WIDTH/6 , y:position-100, width: ScreenSize.SCREEN_WIDTH/1.5, height: lines))
+        let toastLabel = UILabel(frame: CGRect(x:ScreenSize.SCREEN_WIDTH/6 , y:ScreenSize.SCREEN_HEIGHT/2, width: ScreenSize.SCREEN_WIDTH/1.5, height: lines))
         toastLabel.backgroundColor =  UIColor.appColor
         toastLabel.textColor = .white
         var font = UIFont()

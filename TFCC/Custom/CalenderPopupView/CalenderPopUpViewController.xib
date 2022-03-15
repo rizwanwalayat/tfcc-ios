@@ -59,9 +59,6 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="select_date"/>
-                                            </userDefinedRuntimeAttributes>
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tt2-5w-ULa">
                                             <rect key="frame" x="0.0" y="130" width="354" height="50"/>
@@ -242,9 +239,6 @@
                                             <state key="normal" title="Cancel">
                                                 <color key="titleColor" name="ThemeColor"/>
                                             </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="cancel"/>
-                                            </userDefinedRuntimeAttributes>
                                             <connections>
                                                 <action selector="cancelAction:" destination="-1" eventType="touchUpInside" id="Tao-sV-KMJ"/>
                                             </connections>
@@ -261,7 +255,6 @@
                                                 <color key="titleColor" name="WhiteText"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="ok"/>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                     <real key="value" value="12"/>
                                                 </userDefinedRuntimeAttribute>

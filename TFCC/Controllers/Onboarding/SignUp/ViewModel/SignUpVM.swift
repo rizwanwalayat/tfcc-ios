@@ -20,8 +20,13 @@ class SignUpVM: NSObject {
 //        data = responseData
 //    }
     
-    func signUp1Values(){
-        
+    func saveSignUp1Values(email: String, password: String, phoneNumber: String, name: String, gender: String, dob: String){
+        data["patient[email]"] = email
+        data["patient[full_name]"] = name
+        data["patient[password]"] = password
+        data["patient[gender]"] = gender
+        data["patient[date_of_birth]"] = dob
+        data["patient[contact_number]"] = phoneNumber
     }
     
     func createAccount(email: String, password: String, wasteIDs: String, capacity: String, _ completion: @escaping SignUpCompletionHandler) {

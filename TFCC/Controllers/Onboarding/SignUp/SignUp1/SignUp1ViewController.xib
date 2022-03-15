@@ -187,7 +187,7 @@
                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="boolean" keyPath="handleKeyboard" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="handleKeyboard" value="NO"/>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <outlet property="delegate" destination="-1" id="NSJ-k1-nHq"/>

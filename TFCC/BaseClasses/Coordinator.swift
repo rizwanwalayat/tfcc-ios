@@ -36,13 +36,14 @@ class MainCoordinator: Coordinator {
     
     func signUpScreen() {
         let vc = SignUp1ViewController()
-        vc.viewModel
+        vc.viewModel = SignUpVM.shared
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     
     func signUp2Screen() {
         let vc = SignUp2ViewController()
+        vc.viewModel = SignUpVM.shared
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }

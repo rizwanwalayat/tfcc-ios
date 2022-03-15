@@ -19,6 +19,8 @@ class SignUp1ViewController: BaseViewController {
     @IBOutlet weak var genderDropDown: DropDown!
     @IBOutlet weak var dobTF: RoundTextField!
     @IBOutlet weak var nextBtn: UIButton!
+    var genderSelected: Bool = false
+    var dobSelected: Bool = false
     var btnEnabled: Bool = false
     
     var viewModel: SignUpVM?
@@ -32,13 +34,14 @@ class SignUp1ViewController: BaseViewController {
     func setupDropDowns(){
         genderDropDown.setLeftPaddingPoints(15)
         genderDropDown.optionArray = ["Male", "Female"]
-        genderDropDown.optionIds = [1, 2]
         genderDropDown.didSelect{(selectedText , index ,id) in
+            genderSelected = true
             print("Selected String: \(selectedText) \n index: \(index) \n id: \(id)")
         }
     }
     @IBAction func nextBtnAction(_ sender: Any) {
         if btnEnabled {
+            viewModel?.saveSignUp1Values(email: emailTF.text!, password: passwordTF.text!, phoneNumber: phoneTF.text!, name: nameTF.text!, gender: genderDropDown.text!, dob: dobTF.text!)
             coordinator?.signUp2Screen()
         } else {
             showToast(message: "Please fill all the fields properly")
@@ -61,7 +64,7 @@ class SignUp1ViewController: BaseViewController {
 extension SignUp1ViewController: GetCalenderDetailsPopUp {
     func date(date: Date) {
         dobTF.text = date.dateToString("MM-dd-yyyy")
-        
+        dobSelected = true
     }
 
 }

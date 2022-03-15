@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -19,9 +20,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUp2ViewController">
             <connections>
-                <outlet property="economicConditionsTF" destination="4Eh-lv-9X2" id="EKz-mK-8Mj"/>
-                <outlet property="picker" destination="Vpc-Rb-y4h" id="JX4-Ha-DVF"/>
-                <outlet property="pickerView" destination="KrM-bl-4W8" id="44X-La-xtB"/>
+                <outlet property="SignUpBtn" destination="sbH-BP-0Ub" id="ApT-bH-FLZ"/>
+                <outlet property="cityDD" destination="Nfa-sY-Nf6" id="7fx-bY-8BO"/>
+                <outlet property="countryDD" destination="u6v-06-dQz" id="Jtp-r6-iC2"/>
+                <outlet property="economicConditionDD" destination="4Eh-lv-9X2" id="6Qa-yU-fmf"/>
+                <outlet property="socialStateDD" destination="Tc9-jd-V3B" id="lqo-7v-WAr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -72,7 +75,7 @@
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Gbj-QN-Xjz">
                             <rect key="frame" x="16" y="317.5" width="382" height="248"/>
                             <subviews>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Economic Conditions *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Eh-lv-9X2" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Economic Conditions *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Eh-lv-9X2" customClass="DropDown" customModule="iOSDropDown">
                                     <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="cX3-Y7-L5J"/>
@@ -94,7 +97,7 @@
                                         <outlet property="delegate" destination="-1" id="mDP-aX-l8Y"/>
                                     </connections>
                                 </textField>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Social State *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tc9-jd-V3B" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Social State *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tc9-jd-V3B" customClass="DropDown" customModule="iOSDropDown">
                                     <rect key="frame" x="0.0" y="66" width="382" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="5VE-pW-gR5"/>
@@ -112,8 +115,11 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="Ctb-W6-6xK"/>
+                                    </connections>
                                 </textField>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Country *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6v-06-dQz" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Country *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6v-06-dQz" customClass="DropDown" customModule="iOSDropDown">
                                     <rect key="frame" x="0.0" y="132" width="382" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="0HH-Wq-MUx"/>
@@ -131,8 +137,11 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="s5q-ga-Kr1"/>
+                                    </connections>
                                 </textField>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-sY-Nf6" customClass="RoundTextField" customModule="TFCC" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nfa-sY-Nf6" customClass="DropDown" customModule="iOSDropDown">
                                     <rect key="frame" x="0.0" y="198" width="382" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="iY4-uR-z2y"/>
@@ -150,6 +159,9 @@
                                             <real key="value" value="19"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="delegate" destination="-1" id="zYw-z5-tEf"/>
+                                    </connections>
                                 </textField>
                             </subviews>
                         </stackView>
@@ -205,34 +217,6 @@
                                 <constraint firstItem="pxr-Zm-O6u" firstAttribute="leading" secondItem="i6w-Tj-rJL" secondAttribute="leading" id="w1I-dc-yVZ"/>
                             </constraints>
                         </view>
-                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KrM-bl-4W8" userLabel="Picker View">
-                            <rect key="frame" x="0.0" y="636" width="414" height="260"/>
-                            <subviews>
-                                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vpc-Rb-y4h">
-                                    <rect key="frame" x="0.0" y="44" width="414" height="216"/>
-                                </pickerView>
-                                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OUM-E2-d6B">
-                                    <rect key="frame" x="20" y="20" width="414" height="44"/>
-                                    <items>
-                                        <barButtonItem width="100" style="done" systemItem="done" id="JzT-pu-S5u">
-                                            <connections>
-                                                <action selector="doneAction:" destination="-1" id="957-Xq-gtX"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </items>
-                                </toolbar>
-                            </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <constraints>
-                                <constraint firstItem="OUM-E2-d6B" firstAttribute="top" secondItem="KrM-bl-4W8" secondAttribute="top" id="1Lf-FG-1hf"/>
-                                <constraint firstAttribute="trailing" secondItem="Vpc-Rb-y4h" secondAttribute="trailing" id="N0S-J6-HgL"/>
-                                <constraint firstAttribute="trailing" secondItem="OUM-E2-d6B" secondAttribute="trailing" id="Rrc-XV-gfv"/>
-                                <constraint firstItem="OUM-E2-d6B" firstAttribute="leading" secondItem="KrM-bl-4W8" secondAttribute="leading" id="lmk-tW-H0b"/>
-                                <constraint firstItem="Vpc-Rb-y4h" firstAttribute="leading" secondItem="KrM-bl-4W8" secondAttribute="leading" id="mZR-5u-G9X"/>
-                                <constraint firstAttribute="bottom" secondItem="Vpc-Rb-y4h" secondAttribute="bottom" id="nNv-g5-8di"/>
-                                <constraint firstItem="Vpc-Rb-y4h" firstAttribute="top" secondItem="OUM-E2-d6B" secondAttribute="bottom" id="qHe-Bk-nv9"/>
-                            </constraints>
-                        </view>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
@@ -243,13 +227,10 @@
                         <constraint firstItem="1Ls-e3-B2p" firstAttribute="leading" secondItem="dxt-03-TIP" secondAttribute="leading" id="LZg-cw-Tej"/>
                         <constraint firstAttribute="trailing" secondItem="B6P-QJ-NGo" secondAttribute="trailing" constant="33" id="Lyb-eV-uUM"/>
                         <constraint firstItem="i6w-Tj-rJL" firstAttribute="centerX" secondItem="dxt-03-TIP" secondAttribute="centerX" id="NyY-OE-42n"/>
-                        <constraint firstAttribute="trailing" secondItem="KrM-bl-4W8" secondAttribute="trailing" id="Pu4-Nd-HzN"/>
-                        <constraint firstAttribute="bottom" secondItem="KrM-bl-4W8" secondAttribute="bottom" id="TZL-Q8-RPz"/>
                         <constraint firstItem="CNZ-At-aji" firstAttribute="height" secondItem="dxt-03-TIP" secondAttribute="height" multiplier="0.27" id="TdY-Hm-iNT"/>
                         <constraint firstItem="YuR-tn-SPD" firstAttribute="leading" secondItem="dxt-03-TIP" secondAttribute="leading" constant="43" id="Wws-QB-3vI"/>
                         <constraint firstAttribute="trailing" secondItem="YuR-tn-SPD" secondAttribute="trailing" constant="43" id="cKv-F3-O2f"/>
                         <constraint firstItem="1Ls-e3-B2p" firstAttribute="top" secondItem="dxt-03-TIP" secondAttribute="top" id="fQK-55-FDT"/>
-                        <constraint firstItem="KrM-bl-4W8" firstAttribute="leading" secondItem="dxt-03-TIP" secondAttribute="leading" id="fW1-fM-mjv"/>
                         <constraint firstItem="B6P-QJ-NGo" firstAttribute="top" secondItem="YuR-tn-SPD" secondAttribute="bottom" constant="7" id="krb-2h-bIq"/>
                         <constraint firstAttribute="trailing" secondItem="1Ls-e3-B2p" secondAttribute="trailing" id="nZ6-xi-IYG"/>
                         <constraint firstAttribute="trailing" secondItem="sbH-BP-0Ub" secondAttribute="trailing" constant="13" id="pB6-DN-qE1"/>
