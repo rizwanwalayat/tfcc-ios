@@ -13,7 +13,7 @@ typealias SignUpCompletionHandler = (_ result: SignUpDataModel?, _ error: Error?
 
 class SignUpVM: NSObject {
     
-    var data = [String:String]()
+    var query = [String:String]()
     static let shared = SignUpVM()
     
 //    init(responseData : SignUpDataModel) {
@@ -21,18 +21,26 @@ class SignUpVM: NSObject {
 //    }
     
     func saveSignUp1Values(email: String, password: String, phoneNumber: String, name: String, gender: String, dob: String){
-        data["patient[email]"] = email
-        data["patient[full_name]"] = name
-        data["patient[password]"] = password
-        data["patient[gender]"] = gender
-        data["patient[date_of_birth]"] = dob
-        data["patient[contact_number]"] = phoneNumber
+        query["patient[email]"] = email
+        query["patient[full_name]"] = name
+        query["patient[password]"] = password
+        query["patient[gender]"] = gender
+        query["patient[date_of_birth]"] = dob
+        query["patient[contact_number]"] = phoneNumber
     }
     
-    func createAccount(email: String, password: String, wasteIDs: String, capacity: String, _ completion: @escaping SignUpCompletionHandler) {
+    func saveSignUp2Values(economicCondition: String, socialState: String, country: String, city: String){
+        query["patient[economic_condition]"] = economicCondition
+        query["patient[social_state]"] = socialState
+        query["patient[address_attributes][country]"] = country
+        query["patient[address_attributes][city]"] = city
+       
+    }
+    
+    func createAccount(_ completion: @escaping SignUpCompletionHandler) {
         Utility.showLoading()
         
-        APIClient.shared.createAccount(email: email, password: password, wasteIDs: wasteIDs, capacity: capacity) { result, error, status, message in
+        APIClient.shared.createAccount(params: query) { result, error, status, message in
             Utility.hideLoading()
             
             if status , error == nil {

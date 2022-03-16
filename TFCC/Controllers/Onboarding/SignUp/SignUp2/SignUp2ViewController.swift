@@ -20,6 +20,11 @@ class SignUp2ViewController: BaseViewController {
     @IBOutlet weak var countryDD: DropDown!
     @IBOutlet weak var cityDD: DropDown!
     @IBOutlet weak var SignUpBtn: UIButton!
+    var economicConditionSelected = false
+    var socialStateSelected = false
+    var countrySelected = false
+    var citySelected = false
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,24 +35,44 @@ class SignUp2ViewController: BaseViewController {
     func setupDropDowns(){
         economicConditionDD.setLeftPaddingPoints(15)
         economicConditionDD.optionArray = ["Wealthy", "Average", "Needy"]
+        economicConditionDD.didSelect{(selectedText , index ,id) in
+            self.economicConditionSelected = true
+        }
      
         socialStateDD.setLeftPaddingPoints(15)
         socialStateDD.optionArray = ["Single", "Married", "Divorced"]
+        socialStateDD.didSelect{(selectedText , index ,id) in
+            self.socialStateSelected = true
+        }
         
         countryDD.setLeftPaddingPoints(15)
         countryDD.optionArray = ["Saudi Arabia", "Kuwait", "Jordan"]
+        countryDD.didSelect{(selectedText , index ,id) in
+            self.countrySelected = true
+        }
 
         cityDD.setLeftPaddingPoints(15)
         cityDD.optionArray = ["Riyadh", "Jeddah", "Medina", "Mecca"]
+        cityDD.didSelect{(selectedText , index ,id) in
+            self.citySelected = true
+        }
         
     }
     
+    
     @IBAction func signInBtnAction(_ sender: Any) {
-        coordinator?.signInScreen()
+                coordinator?.signInScreen()
     }
     
     @IBAction func SignUpBtnAction(_ sender: Any) {
-        coordinator?.signUp3TOSScreen()
+        if economicConditionSelected && socialStateSelected && countrySelected && citySelected {
+            viewModel?.saveSignUp2Values(economicCondition: economicConditionDD.text!, socialState: socialStateDD.text!, country: countryDD.text!, city: cityDD.text!)
+            coordinator?.signUp3TOSScreen()
+
+        } else {
+            showToast(message: "Please select all Fields")
+        }
+        
     }
     
 }

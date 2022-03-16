@@ -50,6 +50,7 @@ class MainCoordinator: Coordinator {
     
     func signUp3TOSScreen() {
         let vc = SignUp3TOSViewController()
+        vc.viewModel = SignUpVM.shared
         vc.modalPresentationStyle = .overCurrentContext
         vc.coordinator = self
         navigationController.present(vc, animated: true)

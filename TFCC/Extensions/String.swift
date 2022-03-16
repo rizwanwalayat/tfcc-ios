@@ -29,7 +29,15 @@ extension String {
     }
     
     func isStrongPassword() -> Bool {
-        let passwordRegex = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[d$@$!%*?&#])[A-Za-z\\dd$@$!%*?&#]{8,}"
+        let passwordRegex =    "^" +
+        "(?=.*[0-9])" +         //at least 1 digit
+        "(?=.*[a-z])" +         //at least 1 lower case letter
+        "(?=.*[A-Z])" +         //at least 1 upper case letter
+        "(?=.*[a-zA-Z])" +      //any letter
+        "(?=.*[!@#$%^&+=])" +    //at least 1 special character
+        "(?=\\S+$)" +           //no white spaces
+        ".{8,}" +               //at least 8 characters
+        "$"
             return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
     }
 

@@ -107,7 +107,7 @@
                                     </constraints>
                                     <color key="textColor" name="BlackText"/>
                                     <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
-                                    <textInputTraits key="textInputTraits" textContentType="password"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     <userDefinedRuntimeAttributes>
                                         <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                             <color key="value" name="BorderGrey"/>
@@ -318,7 +318,7 @@
             <size key="intrinsicContentSize" width="134.5" height="45"/>
         </designable>
         <designable name="Tc9-jd-V3B">
-            <size key="intrinsicContentSize" width="107.5" height="45"/>
+            <size key="intrinsicContentSize" width="107.5" height="44"/>
         </designable>
         <designable name="u6v-06-dQz">
             <size key="intrinsicContentSize" width="81.5" height="45"/>

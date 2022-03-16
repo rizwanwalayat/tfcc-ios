@@ -17,27 +17,36 @@ protocol GetCalenderDetailsPopUp {
 
 
 class CalenderPopUpViewController: UIViewController {
-    let yearsArray = ["2022", "2023", "2024", "2025", "2026", "2027", "2028"]
+    let yearsArray: [String] = { () -> [String] in
+        var array = [String]()
+        let currentYear = Calendar.current.component(.year, from: Date())
+        for year in stride(from: currentYear, to: 1970, by: -1){
+            array.append("\(year)")
+        }
+        return array
+    }()
 
     @IBOutlet weak var popUpView: UIView!
     var delegate : GetCalenderDetailsPopUp?
     var selectedDate = Date()
     @IBOutlet weak var calenderView: FSCalendar!
     @IBOutlet weak var selectedDateFromCalender: UILabel!
-    @IBOutlet weak var rightButton: UIButton!{
-        didSet{
-//            if AppSettings.appLanguage == AppLanguage.arabic.rawValue {
-                rightButton.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
-//            }
-        }
-    }
-    @IBOutlet weak var leftButton: UIButton!{
-        didSet{
-//            if AppSettings.appLanguage == AppLanguage.arabic.rawValue {
-                leftButton.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
-//            }
-        }
-    }
+    @IBOutlet weak var rightButton: UIButton!
+//    {
+//        didSet{
+////            if AppSettings.appLanguage == AppLanguage.arabic.rawValue {
+//                rightButton.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
+////            }
+//        }
+//    }
+    @IBOutlet weak var leftButton: UIButton!
+//    {
+//        didSet{
+////            if AppSettings.appLanguage == AppLanguage.arabic.rawValue {
+//                leftButton.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
+////            }
+//        }
+//    }
     @IBOutlet weak var dropDownButton: UIButton!
     @IBOutlet weak var yearsContentView: UIView!
     @IBOutlet weak var yearLabel: UILabel!
@@ -153,5 +162,7 @@ extension CalenderPopUpViewController:  DropdownDelegate{
         let dateStringForYears = date.dateToString("MMMM yyyy")
         yearLabel.text = dateStringForYears
         selectedDate = date
+        calenderView.select(selectedDate, scrollToDate: true)
+
     }
 }

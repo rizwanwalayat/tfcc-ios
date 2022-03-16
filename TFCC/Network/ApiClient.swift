@@ -103,11 +103,11 @@ class APIClient: APIClientHandler {
     
     
     
-    func createAccount(email: String, password: String, wasteIDs: String, capacity: String, _ completionBlock: @escaping APIClientCompletionHandler)
+    func createAccount(params: [String:String], _ completionBlock: @escaping APIClientCompletionHandler)
     {
-        let headers = ["Authorization": "token " + (DataManager.shared.getAuthToken())]
-        let params = [ "email": email, "password": password, "waste_types": wasteIDs, "weight_capacity": capacity] as [String: AnyObject]
-        _ = sendRequest(APIRoutes.createAccount, parameters: params , httpMethod: .post, headers: headers, completionBlock: completionBlock)
+//        let headers = ["Authorization": "token " + (DataManager.shared.getAuthToken())]
+//        let params = [ "email": email, "password": password, "waste_types": wasteIDs, "weight_capacity": capacity] as [String: AnyObject]
+        _ = sendRequest(APIRoutes.createAccount, parameters: params as [String:AnyObject] , httpMethod: .post, headers: nil, completionBlock: completionBlock)
     }
     
     func LoadsApiFunctionCall(_ params: [String : Any], _ completionBlock: @escaping APIClientCompletionHandler) {

@@ -9,6 +9,7 @@ import UIKit
 
 class SignUp3TOSViewController: BaseViewController {
     var blurEffectView: UIVisualEffectView!
+    var viewModel: SignUpVM?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,9 @@ class SignUp3TOSViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func agreeBtnAction(_ sender: Any) {
-        coordinator?.signInScreen()
+        viewModel?.createAccount({ data, error, success, message in
+            
+        })
     }
     
     @IBAction func continueBtnAction(_ sender: Any) {

@@ -40,7 +40,7 @@ class DropDownViewController: UIViewController {
         super.viewDidAppear(animated)
         
         /// here we're calculting max difference of screen and view from starts, so that popup don't exceed to main screen's hight
-        let estimatedMaxHeight = (ScreenSize.SCREEN_HEIGHT - contentViewsFrame.minY) - 20
+        let estimatedMaxHeight = (ScreenSize.SCREEN_HEIGHT - contentViewsFrame.minY) - 200
         let estimatedPopupHeight = CGFloat(tableViewDataSource.count * 40)
         
         var frame = popupView.bounds

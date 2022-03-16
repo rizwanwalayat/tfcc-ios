@@ -35,8 +35,8 @@ class SignUp1ViewController: BaseViewController {
         genderDropDown.setLeftPaddingPoints(15)
         genderDropDown.optionArray = ["Male", "Female"]
         genderDropDown.didSelect{(selectedText , index ,id) in
-            genderSelected = true
-            print("Selected String: \(selectedText) \n index: \(index) \n id: \(id)")
+            self.genderSelected = true
+            self.checkBtnEnable()
         }
     }
     @IBAction func nextBtnAction(_ sender: Any) {
@@ -59,12 +59,21 @@ class SignUp1ViewController: BaseViewController {
                 self.present(vc, animated: false, completion: nil)
     }
     
+    func checkBtnEnable(){
+        if emailTF.text?.isValidEmail() ?? false && passwordTF.text?.isStrongPassword() ?? false && phoneTF.text?.isPhoneNumber ?? false && nameTF.hasText && genderSelected && dobSelected {
+            btnEnabled = true
+        }
+        else {
+            btnEnabled = false
+        }
+    }
 }
 
 extension SignUp1ViewController: GetCalenderDetailsPopUp {
     func date(date: Date) {
         dobTF.text = date.dateToString("MM-dd-yyyy")
         dobSelected = true
+        checkBtnEnable()
     }
 
 }
@@ -72,12 +81,7 @@ extension SignUp1ViewController: GetCalenderDetailsPopUp {
 extension SignUp1ViewController: UITextFieldDelegate {
     
     func textFieldDidChangeSelection(_ textField: UITextField) {
-        if emailTF.text?.isValidEmail() ?? false && passwordTF.text?.isStrongPassword() ?? false && phoneTF.text?.isPhoneNumber ?? false && nameTF.hasText && genderDropDown.hasText && dobTF.hasText {
-            print("btn enabled")
-            btnEnabled = true
-        }
-        else {
-            btnEnabled = false
-        }
+        checkBtnEnable()
+      
     }
 }
