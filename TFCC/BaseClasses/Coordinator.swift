@@ -144,4 +144,9 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
+    func appointmentCallScreen() {
+        let vc = PatientAppointmentCallViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
 }
