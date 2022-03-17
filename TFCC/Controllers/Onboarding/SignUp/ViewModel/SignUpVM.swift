@@ -40,7 +40,8 @@ class SignUpVM: NSObject {
     func createAccount(_ completion: @escaping SignUpCompletionHandler) {
         Utility.showLoading()
         
-        APIClient.shared.createAccount(params: query) { result, error, status, message in
+        let params = query.mapValues { Utility.formatQuery($0) }
+        APIClient.shared.createAccount(params: params) { result, error, status, message in
             Utility.hideLoading()
             
             if status , error == nil {

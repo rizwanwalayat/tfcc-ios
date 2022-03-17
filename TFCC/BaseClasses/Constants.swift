@@ -17,7 +17,7 @@ var defaultSideMenuIndex = 2
 let kGoogleMapsAPI = "AIzaSyBCc-hYeJt9tAVT-uAgp3XhJSi5HBmqd6Y"
 struct APIRoutes {
 //    static var baseUrl = "https://app.enmassenergy.com/" //Live
-    static var baseUrl = "https://enmass-cache-programme.appspot.com/" //Stagging
+    static var baseUrl = "https://tfcc-staging.herokuapp.com" //Stagging
 //    static var baseUrl = "https://cache-admin-panel-production.appspot.com/" //Production
     
     static var imageBaseUrl = "/api/shared/user/userImage"
@@ -48,7 +48,7 @@ struct APIRoutes {
     static var sendSignupCode = "carriers/api/signup/send_code"
     static var resendSignupCode = "carriers/api/signup/resend_code"
     static var verifySignupCode = "carriers/api/signup/verify_code"
-    static var createAccount = "carriers/api/signup/select_waste_type"
+    static var signUp = "/api/v1/patients/"
     static var editProfile = "carriers/api/edit_profile"
     static var shipments = "carriers/api/shipments"
 

@@ -107,7 +107,7 @@ class APIClient: APIClientHandler {
     {
 //        let headers = ["Authorization": "token " + (DataManager.shared.getAuthToken())]
 //        let params = [ "email": email, "password": password, "waste_types": wasteIDs, "weight_capacity": capacity] as [String: AnyObject]
-        _ = sendRequest(APIRoutes.createAccount, parameters: params as [String:AnyObject] , httpMethod: .post, headers: nil, completionBlock: completionBlock)
+        _ = sendRequest(APIRoutes.signUp, parameters: params as [String:AnyObject] , httpMethod: .post, headers: nil, completionBlock: completionBlock)
     }
     
     func LoadsApiFunctionCall(_ params: [String : Any], _ completionBlock: @escaping APIClientCompletionHandler) {

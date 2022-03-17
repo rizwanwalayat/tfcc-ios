@@ -124,6 +124,7 @@ struct NetworkingConnection {
         targetImageView?.addSubview(blurEffectView)
     }
     
+   
     class func removeBlurFromImage(targetImageView: UIImageView?) {
         
         let blurViews = targetImageView?.subviews.filter({ (view) -> Bool in
@@ -134,6 +135,12 @@ struct NetworkingConnection {
             view.removeFromSuperview()
         })
     }
+    
+    class func formatQuery(_ value: String)->String{
+        let newValue = value.lowercased().replacingOccurrences(of: " ", with: "_")
+        return newValue
+    }
+    
     
     @objc class func showLoading(offSet: CGFloat = 0, isVisible: Bool = true) {
 //        LoaderAnimation.shared.playAnimation()

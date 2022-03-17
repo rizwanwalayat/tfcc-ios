@@ -253,20 +253,6 @@
             <point key="canvasLocation" x="137.68115942028987" y="134.59821428571428"/>
         </view>
     </objects>
-    <designables>
-        <designable name="4Eh-lv-9X2">
-            <size key="intrinsicContentSize" width="157.5" height="21"/>
-        </designable>
-        <designable name="Nfa-sY-Nf6">
-            <size key="intrinsicContentSize" width="39" height="21"/>
-        </designable>
-        <designable name="Tc9-jd-V3B">
-            <size key="intrinsicContentSize" width="91" height="21"/>
-        </designable>
-        <designable name="u6v-06-dQz">
-            <size key="intrinsicContentSize" width="68" height="21"/>
-        </designable>
-    </designables>
     <resources>
         <image name="HeaderBg" width="360" height="168"/>
         <image name="HeaderIcon" width="92" height="92"/>

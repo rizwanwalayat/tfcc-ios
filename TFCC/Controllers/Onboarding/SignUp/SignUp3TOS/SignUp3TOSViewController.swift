@@ -22,14 +22,23 @@ class SignUp3TOSViewController: BaseViewController {
         self.view.sendSubviewToBack(blurEffectView)
         // Do any additional setup after loading the view.
     }
-    @IBAction func agreeBtnAction(_ sender: Any) {
+    
+    func saveSignUpData(){
         viewModel?.createAccount({ data, error, success, message in
-            
+            print(data)
+            self.coordinator?.searchSpecialistScreen()
+
         })
     }
     
+    @IBAction func agreeBtnAction(_ sender: Any) {
+       saveSignUpData()
+    }
+    
     @IBAction func continueBtnAction(_ sender: Any) {
-        coordinator?.searchSpecialistScreen()
+        self.dismiss(animated: true) {
+            self.saveSignUpData()
+        }
     }
     
 

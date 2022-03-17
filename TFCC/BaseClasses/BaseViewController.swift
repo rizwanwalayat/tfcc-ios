@@ -29,6 +29,8 @@ open class BaseViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    
     func setupLabelUnderlineText(_ label: UILabel, _ text : String)
     {
         let font = UIFont(name: "Barlow-BoldItalic", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: .bold)
