@@ -52,6 +52,8 @@
 		69C129E327E2184E0022D115 /* PatientAppointmentConfirmedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C129E127E2184E0022D115 /* PatientAppointmentConfirmedViewController.xib */; };
 		69DA6C7827E3501F00FA8902 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA6C7627E3501F00FA8902 /* FeedbackViewController.swift */; };
 		69DA6C7927E3501F00FA8902 /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA6C7727E3501F00FA8902 /* FeedbackViewController.xib */; };
+		69DA6C7C27E3618100FA8902 /* PatientCardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA6C7A27E3618100FA8902 /* PatientCardInfoViewController.swift */; };
+		69DA6C7D27E3618100FA8902 /* PatientCardInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DA6C7B27E3618100FA8902 /* PatientCardInfoViewController.xib */; };
 		69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */; };
 		69F4D74D27C9011200812481 /* SearchSpecialistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */; };
 		69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F4D75927C918F200812481 /* BannerCollectionCell.swift */; };
@@ -179,6 +181,8 @@
 		69C129E127E2184E0022D115 /* PatientAppointmentConfirmedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientAppointmentConfirmedViewController.xib; sourceTree = "<group>"; };
 		69DA6C7627E3501F00FA8902 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		69DA6C7727E3501F00FA8902 /* FeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		69DA6C7A27E3618100FA8902 /* PatientCardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardInfoViewController.swift; sourceTree = "<group>"; };
+		69DA6C7B27E3618100FA8902 /* PatientCardInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientCardInfoViewController.xib; sourceTree = "<group>"; };
 		69F4D74A27C9011200812481 /* SearchSpecialistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSpecialistViewController.swift; sourceTree = "<group>"; };
 		69F4D74B27C9011200812481 /* SearchSpecialistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchSpecialistViewController.xib; sourceTree = "<group>"; };
 		69F4D75927C918F200812481 /* BannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionCell.swift; sourceTree = "<group>"; };
@@ -328,6 +332,7 @@
 		695D528327D8DC4A00BD72E7 /* Patient */ = {
 			isa = PBXGroup;
 			children = (
+				69DA6C7E27E3618800FA8902 /* CardInfoScreen */,
 				69DA6C7527E3500300FA8902 /* FeedbackScreen */,
 				69C129DF27E218270022D115 /* AppointmentConfirmed */,
 				69C129DA27E1FD630022D115 /* AppointmentCall */,
@@ -465,6 +470,15 @@
 				69DA6C7727E3501F00FA8902 /* FeedbackViewController.xib */,
 			);
 			path = FeedbackScreen;
+			sourceTree = "<group>";
+		};
+		69DA6C7E27E3618800FA8902 /* CardInfoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				69DA6C7A27E3618100FA8902 /* PatientCardInfoViewController.swift */,
+				69DA6C7B27E3618100FA8902 /* PatientCardInfoViewController.xib */,
+			);
+			path = CardInfoScreen;
 			sourceTree = "<group>";
 		};
 		69F4D74927C900D300812481 /* SearchSpecialist */ = {
@@ -927,6 +941,7 @@
 			files = (
 				69C129E327E2184E0022D115 /* PatientAppointmentConfirmedViewController.xib in Resources */,
 				96BEC31C27C66D67009A5F5B /* LaunchScreen.storyboard in Resources */,
+				69DA6C7D27E3618100FA8902 /* PatientCardInfoViewController.xib in Resources */,
 				96564C2D27DA527900B047DC /* CalenderPopUpViewController.xib in Resources */,
 				96426B2A27C67E470007B579 /* Lato-ThinItalic.ttf in Resources */,
 				96426B2927C67E470007B579 /* Lato-Regular.ttf in Resources */,
@@ -1065,6 +1080,7 @@
 				69F57E4A27D6211C001EB8F9 /* PhysicianProfileViewController.swift in Sources */,
 				965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */,
 				96E7985C27CFB4A6005F00B1 /* VerificationCodeViewController.swift in Sources */,
+				69DA6C7C27E3618100FA8902 /* PatientCardInfoViewController.swift in Sources */,
 				96BEC32627C67352009A5F5B /* WelcomeViewController.swift in Sources */,
 				69DA6C7827E3501F00FA8902 /* FeedbackViewController.swift in Sources */,
 				695D52A327DF359500BD72E7 /* PatientUpcomingPastAppointmentViewController.swift in Sources */,

@@ -159,4 +159,9 @@ class MainCoordinator: Coordinator {
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
+    func cardInfoScreen() {
+        let vc = PatientCardInfoViewController()
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
 }
