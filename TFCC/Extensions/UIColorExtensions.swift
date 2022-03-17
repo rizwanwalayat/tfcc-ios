@@ -23,4 +23,7 @@ extension UIColor {
     static var BorderGrey: UIColor {
         return UIColor(named: "BorderGrey") ?? UIColor(hexString: "B8B8B8")
     }
+    static var RatingStarOrange: UIColor {
+        return UIColor(named: "RatingStarOrange") ?? UIColor(hexString: "F8A200")
+    }
 }
