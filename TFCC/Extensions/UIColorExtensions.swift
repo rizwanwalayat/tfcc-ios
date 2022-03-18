@@ -26,4 +26,7 @@ extension UIColor {
     static var RatingStarOrange: UIColor {
         return UIColor(named: "RatingStarOrange") ?? UIColor(hexString: "F8A200")
     }
+    static var DarkGrey: UIColor {
+        return UIColor(named: "DarkGrey") ?? UIColor(hexString: "728294")
+    }
 }
