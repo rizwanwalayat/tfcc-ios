@@ -13,34 +13,32 @@ typealias SignUpCompletionHandler = (_ result: SignUpDataModel?, _ error: Error?
 
 class SignUpVM: NSObject {
     
-    var query = [String:String]()
+    var query = [String:Any]()
+
     static let shared = SignUpVM()
-    
-//    init(responseData : SignUpDataModel) {
-//        data = responseData
-//    }
+        
     
     func saveSignUp1Values(email: String, password: String, phoneNumber: String, name: String, gender: String, dob: String){
-        query["patient[email]"] = email
-        query["patient[full_name]"] = name
-        query["patient[password]"] = password
-        query["patient[gender]"] = gender
-        query["patient[date_of_birth]"] = dob
-        query["patient[contact_number]"] = phoneNumber
+        
+        query["email"] = email
+        query["full_name"] = name
+        query["password"] = password
+        query["gender"] = Utility.formatQuery(gender)
+        query["date_of_birth"] = dob
+        query["contact_number"] = phoneNumber
     }
     
     func saveSignUp2Values(economicCondition: String, socialState: String, country: String, city: String){
-        query["patient[economic_condition]"] = economicCondition
-        query["patient[social_state]"] = socialState
-        query["patient[address_attributes][country]"] = country
-        query["patient[address_attributes][city]"] = city
+        query["economic_condition"] = Utility.formatQuery(economicCondition)
+        query["social_state"] = Utility.formatQuery(socialState)
+        query["address_attributes"] = ["country" : Utility.formatQuery(country) , "city" : Utility.formatQuery(city)]
        
     }
     
     func createAccount(_ completion: @escaping SignUpCompletionHandler) {
         Utility.showLoading()
         
-        let params = query.mapValues { Utility.formatQuery($0) }
+        let params:[String:Any] = ["patient": query]
         APIClient.shared.createAccount(params: params) { result, error, status, message in
             Utility.hideLoading()
             

@@ -103,7 +103,7 @@ class APIClient: APIClientHandler {
     
     
     
-    func createAccount(params: [String:String], _ completionBlock: @escaping APIClientCompletionHandler)
+    func createAccount(params: [String:Any], _ completionBlock: @escaping APIClientCompletionHandler)
     {
 //        let headers = ["Authorization": "token " + (DataManager.shared.getAuthToken())]
 //        let params = [ "email": email, "password": password, "waste_types": wasteIDs, "weight_capacity": capacity] as [String: AnyObject]
