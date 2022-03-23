@@ -25,8 +25,13 @@ class SignUp3TOSViewController: BaseViewController {
     
     func saveSignUpData(){
         viewModel?.createAccount({ data, error, success, message in
-            print(data)
-            self.coordinator?.searchSpecialistScreen()
+
+            if (success ?? false) {
+                self.coordinator?.signInScreen()
+            } else if error != nil {
+                self.showToast(message: message ?? "Error")
+                self.coordinator?.signUpScreen()
+            }
 
         })
     }
@@ -41,5 +46,8 @@ class SignUp3TOSViewController: BaseViewController {
         }
     }
     
-
+    @IBAction func cancelBtnAction(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
 }

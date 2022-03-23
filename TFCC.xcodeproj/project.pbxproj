@@ -107,6 +107,7 @@
 		965A8ABC27C93BE7007DDE1C /* SignUp1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965A8ABA27C93BE7007DDE1C /* SignUp1ViewController.xib */; };
 		965A8ABE27C93F21007DDE1C /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8ABD27C93F21007DDE1C /* RoundTextField.swift */; };
 		965A8AC127C94154007DDE1C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A8AC027C94154007DDE1C /* UIColorExtensions.swift */; };
+		966751A127E4D6CB009E46BB /* SignInUserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966751A027E4D6CB009E46BB /* SignInUserDataModel.swift */; };
 		968B162727C8E76400B01E83 /* WelcomeSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */; };
 		968B162827C8E76400B01E83 /* WelcomeSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */; };
 		968B162A27C90C6100B01E83 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B162927C90C6100B01E83 /* RoundButton.swift */; };
@@ -240,6 +241,7 @@
 		965A8ABA27C93BE7007DDE1C /* SignUp1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUp1ViewController.xib; sourceTree = "<group>"; };
 		965A8ABD27C93F21007DDE1C /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		965A8AC027C94154007DDE1C /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		966751A027E4D6CB009E46BB /* SignInUserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInUserDataModel.swift; sourceTree = "<group>"; };
 		968B162527C8E76400B01E83 /* WelcomeSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSignUpViewController.swift; sourceTree = "<group>"; };
 		968B162627C8E76400B01E83 /* WelcomeSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeSignUpViewController.xib; sourceTree = "<group>"; };
 		968B162927C90C6100B01E83 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -581,10 +583,10 @@
 			isa = PBXGroup;
 			children = (
 				96ECE19527DF327F00AAA619 /* SignUp */,
+				9618726F27CE79EF0063089E /* SignIn */,
 				96F1F6B327CFE1C7002D8D86 /* ConfirmPassword */,
 				96E7985927CFB4A6005F00B1 /* VerificationCode */,
 				96E7985427CFB156005F00B1 /* ForgotPassword */,
-				9618726F27CE79EF0063089E /* SignIn */,
 				968B162427C8E76400B01E83 /* WelcomeSignUp */,
 				96426B3227C681BF0007B579 /* Welcome */,
 			);
@@ -722,6 +724,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		9667519F27E4D6CB009E46BB /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				966751A027E4D6CB009E46BB /* SignInUserDataModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
 		968B162427C8E76400B01E83 /* WelcomeSignUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,6 +752,7 @@
 		96A71E7B27DB9EB300EB9832 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9667519F27E4D6CB009E46BB /* SignIn */,
 				96A71E7C27DB9EBA00EB9832 /* Signup */,
 			);
 			path = Models;
@@ -1146,6 +1157,7 @@
 				69A599EF27D08B3600471E7F /* UIView.swift in Sources */,
 				6953C0C127D7890A007BE4CC /* TimeCollectionViewCell.swift in Sources */,
 				69F4D74C27C9011200812481 /* SearchSpecialistViewController.swift in Sources */,
+				966751A127E4D6CB009E46BB /* SignInUserDataModel.swift in Sources */,
 				96564C2C27DA527900B047DC /* CalenderPopUpViewController.swift in Sources */,
 				69F4D75B27C918F200812481 /* BannerCollectionCell.swift in Sources */,
 				69C129D327DF69520022D115 /* MedicalRecordsViewController.swift in Sources */,
